@@ -1,0 +1,5 @@
+\babel@toc {italian}{}\relax 
+\babel@toc {italian}{}\relax 
+\beamer@sectionintoc {1}{Finite Element Method}{2}{0}{1}
+\beamer@sectionintoc {2}{Number precision}{3}{0}{2}
+\beamer@sectionintoc {3}{Testing performance}{4}{0}{3}
