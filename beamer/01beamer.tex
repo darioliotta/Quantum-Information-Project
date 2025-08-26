@@ -1,4 +1,3 @@
-%\documentclass[pt12]{beamer}
 \PassOptionsToPackage{dvipsnames}{xcolor}
 \documentclass[10pt,externalviewer]{beamer}
 
@@ -23,23 +22,24 @@
 \usepackage{pdfcolparallel}
 \usepackage{tcolorbox}
 \usepackage{physics}
+\usetikzlibrary{decorations.pathreplacing}
 \tcbuselibrary{fitting}
 
 \makeatletter
-\newcommand\xleftrightarrow[2][]{%
+\newcommand\xleftrightarrow[2][]{
   \ext@arrow 9999{\longleftrightarrowfill@}{#1}{#2}}
-\newcommand\longleftrightarrowfill@{%
+\newcommand\longleftrightarrowfill@{
   \arrowfill@\leftarrow\relbar\rightarrow}
 \makeatother
 
-\definecolor{PDred}{HTML}{9B0014} % Catania green (primary)
+\definecolor{PDred}{HTML}{9B0014}
 
 \mode<presentation>
 {
-  \usetheme{Warsaw} 
-%  \usetheme{Madrid}
-%  \usetheme{Montpellier}
-%  \usetheme{Marburg} 
+  \usetheme{Warsaw}
+ %\usetheme{Madrid}
+ %\usetheme{Montpellier}
+ %\usetheme{Marburg} 
   \usecolortheme[named=PDred]{structure}
   \setbeamercolor{alerted text}{fg=PDred}
   \setbeamercovered{transparent}
@@ -53,12 +53,13 @@
   {size=\Large,parent=structure}
   \setbeamerfont{sectiontitle}
   {size=\Large,parent=structure}
+  \setbeamerfont{short title}
+  {size=\tiny}
 }
 
 %\setbeamertemplate{footline}{\hfill\insertframenumber/\inserttotalframenumber} 
 
 \expandafter\def\expandafter\insertshorttitle\expandafter{%
-  \insertshorttitle\hfill%
   \insertframenumber\,/\,\inserttotalframenumber}
 
 \newcommand{\backupbegin}{
@@ -119,285 +120,47 @@
 \section{Finite Element Method}
 
 \begin{frame}
-   \frametitle{Building up the workspace: the setup}
+   \frametitle{Numerical methods for differential equations}
 
-   First I created a \textcolor{BrickRed}{\textbf{working directory}}
+   \input{Figure/numerical-methods-scheme.tex}
+\end{frame}
+
+\begin{frame}{Introduction to the problem}
+   Solving a \textbf{\textcolor{BrickRed}{PDE}} means to find a function $u$ such that
+
+   \begin{equation*}
+      \mathcal{L}u=f
+   \end{equation*}
+
+   where $\mathcal{L}$ is a \underline{differential operator} and $f$ is a \underline{source term}.
+
+   \vspace{0.3cm}
+
+   The equation holds in a domain $\Omega$ and is completed by prescribing \textbf{boundary conditions} on $\partial\Omega$.
+
+   \vfill
 
    \begin{figure}[H]
       \centering
-      \includegraphics[width=\textwidth]{Immagini/creating-working-directory.png}
+      \begin{tikzpicture}
+
+         \node[align=center,text width=3.5cm] at (0,0) (A) {In most physical applications $\mathcal{L}$ is a \underline{second-order} operator};
+
+         \node at (5,0) (B) {\footnotesize{\textbf{Heat} equation: $\mathcal{L}=\frac{\partial}{\partial t}-\Delta$}};
+
+         \node at (4.85,1) (C) {\footnotesize{\textbf{Poisson} equation: $\mathcal{L}=\Delta$}};
+
+         \node at (5.25,-1) (D) {\footnotesize{\textbf{Wave} equation: $\mathcal{L}=\frac{\partial^2}{\partial t^2}-c^2\Delta$}};
+
+         \draw[->] (A) -- (B);
+         \draw[->] (2.25,0) -- (2.25,1) -- (C);
+         \draw[->] (2.25,0) -- (2.25,-1) -- (D); 
+      \end{tikzpicture}
    \end{figure}
-
-   \vfill
-
-   \begin{minipage}{0.45\textwidth}
-
-      \begin{center}
-         The \textcolor{BrickRed}{\textbf{development environment}} I chose
-      \end{center}
-
-      \vspace{-0.5cm}
-
-      \begin{figure}[H]
-         \centering
-         \includegraphics[width=\textwidth]{Immagini/setup.jpg}
-      \end{figure}
-
-   \end{minipage}
-   \hfill
-   \begin{minipage}{0.45\textwidth}
-
-      \begin{center}
-         Finally, I submitted the simplest program: \textcolor{BrickRed}{\textbf{\texttt{hello\_world.f90}}}
-      \end{center}
-
-      \begin{figure}[H]
-         \centering
-         \includegraphics[width=0.65\textwidth]{Immagini/hello_world_code.png}
-         \caption*{\scriptsize{\textbf{Code}}}
-      \end{figure}
-
-      \vspace{-0.6cm}
-
-      \begin{figure}[H]
-         \centering
-         \includegraphics[width=\textwidth]{Immagini/hello_world_output.png}
-         \caption*{\scriptsize{\textbf{Output}}}
-      \end{figure}
-
-   \end{minipage}
 \end{frame}
 
-\section{Number precision}
-
-\begin{frame}
-   \frametitle{Exploring the limits of INTEGER and REAL in Fortran}
-
-   \begin{minipage}{0.45\textwidth}
-
-      \begin{center}
-         \textbf{Sum of integers}
-
-         \vspace{-0.5cm}
-
-         \scriptsize{$$\num{2000000}+1$$}
-      \end{center}
-
-      \footnotesize{In Fortran we can select how much space we give to our variables:}
-
-      \begin{itemize}
-         \footnotesize{\item \textcolor{BrickRed}{\textbf{\texttt{INTEGER*2}}}: \textbf{2 bytes} $\Rightarrow$ 16 bits $\Rightarrow \ n\in\left[-2^{15},2^{15}-1\right]$}
-         \footnotesize{\item \textcolor{BrickRed}{\textbf{\texttt{INTEGER*4}}}: \textbf{4 bytes} $\Rightarrow$ 32 bits $\Rightarrow \ n\in\left[-2^{31},2^{31}-1\right]$}
-      \end{itemize}
-
-      \begin{center}
-         \footnotesize{$\num{2000000}>2^{15} \ \Rightarrow$} \textcolor{BrickRed}{\textbf{Compiler error}}
-      \end{center}
-
-      \vspace{-0.25cm}
-
-      \begin{figure}[H]
-         \centering
-         \includegraphics[width=\textwidth]{Immagini/integer_sum_error.png}
-      \end{figure}
-
-      \footnotesize{Forcing with the \texttt{-fno-range-check} flag results in an \textcolor{BrickRed}{\textbf{overflow}}}
-
-      \begin{figure}[H]
-         \centering
-         \includegraphics[width=\textwidth]{Immagini/integer-sum-output.png}
-      \end{figure}
-
-   \end{minipage}
-   \hfill
-   \begin{minipage}{0.45\textwidth}
-
-      \begin{center}
-         \textbf{Sum of reals}
-
-         \vspace{-0.5cm}
-
-         \scriptsize{$$\pi\cdot10^{32}+\sqrt{2}\cdot10^{21}$$}
-      \end{center}
-
-      \footnotesize{Different storage lengths mean different precisions:}
-
-      \begin{itemize}
-         \footnotesize{\item \textcolor{BrickRed}{\textbf{Single}}: \textbf{4 bytes} $\Rightarrow$ 32 bits\\ $\Rightarrow$ up to $8$ decimal digits}
-         \footnotesize{\item \textcolor{BrickRed}{\textbf{Double}}: \textbf{8 bytes} $\Rightarrow$ 64 bits\\ $\Rightarrow$ up to $16$ decimal digits}
-      \end{itemize}
-
-      \vspace{-0.25cm}
-
-      \begin{figure}[H]
-         \centering
-         \includegraphics[width=0.78\textwidth]{Immagini/real-sum-code.png}
-      \end{figure}
-
-      \footnotesize{A difference of $11$ orders of magnitude means \textcolor{BrickRed}{\textbf{no difference}} in single precision from $\pi\cdot10^{32}$}
-
-      \begin{figure}[H]
-         \centering
-         \includegraphics[width=0.78\textwidth]{Immagini/real-sum-output.png}
-      \end{figure}
-
-   \end{minipage}
-\end{frame}
-
-\section{Testing performance}
-
-\begin{frame}
-   \frametitle{Matrix-matrix multiplication: different approaches}
-
-   \begin{minipage}{0.45\textwidth}
-      \begin{center}
-         \small{\textcolor{BrickRed}{\textbf{Standard approach}}}
-
-         \footnotesize{Fill by rows}
-
-         \input{Figure/standard_mm.tex}
-
-         \vspace{-0.2cm}
-
-         \begin{figure}[H]
-            \centering
-            \includegraphics[width=0.8\textwidth]{Immagini/mm-multiplication-standard-code.png}
-         \end{figure}
-
-      \end{center}
-   \end{minipage}
-   \hfill
-   \begin{minipage}{0.45\textwidth}
-      \begin{center}
-         \small{\textcolor{BrickRed}{\textbf{Reversed approach}}}
-
-         \footnotesize{Fill by columns}
-
-         \input{Figure/reversed_mm.tex}
-
-         \vspace{-0.2cm}
-
-         \begin{figure}[H]
-            \centering
-            \includegraphics[width=0.8\textwidth]{Immagini/mm-multiplication-reversed-code.png}
-         \end{figure}
-
-      \end{center}
-   \end{minipage}
-
-   \vfill
-
-   \begin{center}
-      \small{\textcolor{BrickRed}{\textbf{Fortran approach}}}
-
-      \footnotesize{Built-in function}
-
-      \footnotesize{\texttt{REAL :: A(n,n), B(n,n), C(n,n)} $\ \ \Longrightarrow \ \ $ \texttt{C = \textcolor{BrickRed}{MATMUL(}A,B\textcolor{BrickRed}{)}}}
-   \end{center}
-\end{frame}
-
-\begin{frame}
-   \frametitle{Results with different input sizes}
-
-   \begin{minipage}{0.45\textwidth}
-
-      \vspace{0.25cm}
-
-      \begin{itemize}
-         \small{\item $10$ different \textcolor{BrickRed}{\textbf{input sizes}}}
-         \small{\item $10$ \textcolor{BrickRed}{\textbf{runs}} for each size}
-         \small{\item Times evaluated with function \textcolor{BrickRed}{\texttt{\textbf{CPU\_TIME()}}}}
-         \small{\item Final times are the \textcolor{BrickRed}{\textbf{average}} ones elapsed for each run}
-      \end{itemize}
-
-      \begin{figure}[H]
-         \centering
-            \includegraphics[width=0.57\textwidth]{Immagini/run-function.png}
-            \caption*{\tiny{\textbf{Run function}}}
-      \end{figure}
-   \end{minipage}
-   \hfill
-   \begin{minipage}{0.5\textwidth}
-      \begin{figure}[H]
-         \centering
-            \includegraphics[width=0.92\textwidth]{Immagini/plot_t_sum.png}
-      \end{figure}
-
-      \vspace{-0.15cm}
-
-      \begin{itemize}
-         \small{\item Standard approach is the worst}
-         \small{\item Reversed approach is better, probably because of the \textcolor{BrickRed}{\textbf{column-major memory layout}} (cache optimization)}
-         \small{\item \texttt{MATMUL()} function is the best, since it's an \textcolor{BrickRed}{\textbf{intrinsic function}}} 
-      \end{itemize}
-
-      \vfill
-   \end{minipage}
-\end{frame}
-
-\begin{frame}
-   \frametitle{Results with different optimizations}
-
-   \tiny
-
-   \begin{table}[H]
-      \centering
-      \begin{tabular}{l l}
-         \textbf{Flag} & \textbf{Description}\\
-         \hline
-         \texttt{-O0} & No optimization\\
-         \hline
-         \texttt{-O1} & Base optimization; reduces code dimensions and improves performances\\
-         \hline
-         \texttt{-O2} & Aggressive optimization; enables further options without time compilation increases\\
-         \hline
-         \texttt{-O3} & Maximum optimization; includes advanced optimization such as unrolling of cycles\\
-         \hline
-         \texttt{-march=native} & Optimizes code for the CPU architecture where it is compiled\\
-         \hline
-         \texttt{-funroll-loops} & Unrolls loops to improve performances
-      \end{tabular}
-   \end{table}
-
-   \begin{minipage}{0.32\textwidth}
-      \begin{center}
-         \small{\textcolor{BrickRed}{\textbf{Standard approach}}}
-      \end{center}
-      \vspace{-0.5cm}
-      \begin{figure}[H]
-         \centering
-         \includegraphics[width=\textwidth]{Immagini/plot_t_sum_standard.png}
-      \end{figure}
-   \end{minipage}
-   \hfill
-   \begin{minipage}{0.32\textwidth}
-      \begin{center}
-         \small{\textcolor{BrickRed}{\textbf{Reversed approach}}}
-      \end{center}
-      \vspace{-0.5cm}
-      \begin{figure}[H]
-         \centering
-         \includegraphics[width=\textwidth]{Immagini/plot_t_sum_reversed.png}
-      \end{figure}
-   \end{minipage}
-   \hfill
-   \begin{minipage}{0.32\textwidth}
-      \begin{center}
-         \small{\textcolor{BrickRed}{\textbf{Fortran approach}}}
-      \end{center}
-      \vspace{-0.5cm}
-      \begin{figure}[H]
-         \centering
-         \includegraphics[width=\textwidth]{Immagini/plot_t_sum_fortran.png}
-      \end{figure}
-   \end{minipage}
-
-   \vfill
-
-   \begin{itemize}
-      \footnotesize{\item The only difference appeare to be made by \texttt{-O1}, \texttt{-O2} and \texttt{-O3}, both for the \textbf{standard} and the \textbf{reversed} approach (approximately half of the time)}
-      \footnotesize{\item All optimization are similar in the \textbf{fortran} approach, as it is already much optimized}
-   \end{itemize}
+\begin{frame}{Weak formulation}
+   Galerkin methods rely on a \textbf{\textcolor{BrickRed}{weak formulation}}
 \end{frame}
 
 \end{document}
