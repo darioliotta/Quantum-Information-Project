@@ -10,8 +10,10 @@
 \usepackage{bigints}
 \usepackage{graphics}
 \usepackage{natbib}
+\usepackage{relsize}
 \usepackage{caption}
 \usepackage{subcaption}
+\usepackage{framed}
 \usepackage{tikz}
 \usepackage{lipsum}
 \usepackage[italian]{babel}
@@ -24,6 +26,8 @@
 \usepackage{physics}
 \usetikzlibrary{decorations.pathreplacing}
 \tcbuselibrary{fitting}
+
+\renewcommand{\arraystretch}{2}
 
 \makeatletter
 \newcommand\xleftrightarrow[2][]{
@@ -140,27 +144,100 @@
 
    \vfill
 
-   \begin{figure}[H]
-      \centering
-      \begin{tikzpicture}
+   \pause
 
-         \node[align=center,text width=3.5cm] at (0,0) (A) {In most physical applications $\mathcal{L}$ is a \underline{second-order} operator};
-
-         \node at (5,0) (B) {\footnotesize{\textbf{Heat} equation: $\mathcal{L}=\frac{\partial}{\partial t}-\Delta$}};
-
-         \node at (4.85,1) (C) {\footnotesize{\textbf{Poisson} equation: $\mathcal{L}=\Delta$}};
-
-         \node at (5.25,-1) (D) {\footnotesize{\textbf{Wave} equation: $\mathcal{L}=\frac{\partial^2}{\partial t^2}-c^2\Delta$}};
-
-         \draw[->] (A) -- (B);
-         \draw[->] (2.25,0) -- (2.25,1) -- (C);
-         \draw[->] (2.25,0) -- (2.25,-1) -- (D); 
-      \end{tikzpicture}
-   \end{figure}
+   \input{Figure/second-order-operator.tex}
 \end{frame}
 
 \begin{frame}{Weak formulation}
    Galerkin methods rely on a \textbf{\textcolor{BrickRed}{weak formulation}}
+
+   \vspace{0.5cm}
+
+   \pause
+
+   \begin{itemize}
+      \item \underline{Multiply} by a \textcolor{BrickRed}{test function} $v$ and \underline{integrate} over the entire domain
+      
+      \begin{equation*}
+         -\int_\Omega(\Delta u)vd\Omega=\int_\Omega fvd\Omega
+      \end{equation*}
+
+      \pause
+
+      \item \underline{Integrate by parts} the left hand side
+      
+      \begin{equation*}
+         -\int_\Omega(\Delta u)vd\Omega=\int_\Omega\nabla u\cdot\nabla vd\Omega-\int_{\partial\Omega}\frac{\partial u}{\partial n}vds
+      \end{equation*}
+
+      \pause
+
+      \item \underline{Substitute} and get the new expression
+      
+      \begin{equation*}
+         \int_\Omega\nabla u\cdot\nabla vd\Omega=\int_\Omega fvd\Omega+\int_{\partial\Omega}\frac{\partial u}{\partial n}vds
+      \end{equation*}
+   \end{itemize}
+\end{frame}
+
+\begin{frame}{About the test function}
+   \begin{center}
+      \begin{framed}
+         The test function $v$ is introduced to check whether the PDE is satisfied \textit{\underline{on average}} throughout the domain.
+      \end{framed}
+   \end{center}
+
+   \pause
+
+   The problem becomes to find $u$ such that
+
+   \begin{equation*}
+      a(u,v)=F(v) \qquad \forall v\in V
+   \end{equation*}
+
+   where
+
+   \begin{alignat*}{2}
+      a(u,v)&=\int_\Omega\nabla u\cdot\nabla vd\Omega \qquad &&\text{is a \underline{bilinear form}}\\
+      F(v)&=\int_\Omega fvd\Omega+\int_{\partial\Omega}\frac{\partial u}{\partial n}vds \qquad &&\text{is a \underline{linear functional}}
+   \end{alignat*}
+\end{frame}
+
+\begin{frame}{Benefits of the weak formulation}
+   \begin{table}[H]
+      \centering
+      \begin{tabular}{c c}
+         \textbf{Strong formulation} & \textbf{Weak formulation}\\
+         \hline
+         $u\in C^2(\Omega)$ & $u,v\in H^1(\Omega)^{\boldsymbol{\textcolor{BrickRed}{\ast}}}$\\
+         Holds pointwise in $\Omega$ & Holds on average on $\Omega$\\
+         Derivatives exist classically & \renewcommand{\arraystretch}{0.8} \begin{tabular}{@{}c@{}}Derivatives exist in the \\ distributional sense\end{tabular}\\
+         \textcolor{white}{Derivatives exist classicallyyyy} & \textcolor{white}{Derivatives exist classicallyyyy}
+      \end{tabular}
+   \end{table}
+
+   \vspace{-0.5cm}
+
+   \uncover<2->{\begin{center}
+      \begin{framed}
+         In short: weak formulation requires \textbf{less regularity}
+      \end{framed}
+   \end{center}}
+
+   \vspace{0.6cm}
+
+   $^{\boldsymbol{\textcolor{BrickRed}{\ast}}}$\scriptsize{$H^1(\Omega)$ is a \textbf{Sobolev space} of functions with square-integrable first derivatives:}
+
+   \begin{equation*}
+      w\in H^1(\Omega)=\left\{w\in L^2(\Omega)\mid\nabla w\in L^2(\Omega)^d\right\}
+   \end{equation*}
+
+   \normalsize
+\end{frame}
+
+\begin{frame}{On boundary conditions}
+   a
 \end{frame}
 
 \end{document}

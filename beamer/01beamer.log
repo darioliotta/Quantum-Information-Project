@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.11)  27 AUG 2025 01:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.11)  27 AUG 2025 22:33
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -563,6 +563,8 @@ Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibsep=\skip68
 LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count336
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/relsize/relsize.sty
+Package: relsize 2013/03/29 ver 4.1
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2023/03/12 v3.6j Customizing captions (AR)
  (/usr/local/texlive/2023/texmf-dist/tex/latex/caption/caption3.sty
@@ -591,6 +593,13 @@ Package caption Info: New subtype `subfigure' on input line 239.
 \c@subfigure=\count339
 Package caption Info: New subtype `subtable' on input line 239.
 \c@subtable=\count340
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/framed/framed.sty
+Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
+\OuterFrameSep=\skip69
+\fb@frw=\dimen302
+\fb@frh=\dimen303
+\FrameRule=\dimen304
+\FrameSep=\dimen305
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (/usr/local/texlive/2023/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
 Package: pgf 2023-01-15 v3.1.10 (3.1.10)
  (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
@@ -600,14 +609,14 @@ File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
 File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
 Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
-\pgf@nodesepstart=\dimen302
-\pgf@nodesepend=\dimen303
+\pgf@nodesepstart=\dimen306
+\pgf@nodesepend=\dimen307
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
 Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
 )) (/usr/local/texlive/2023/texmf-dist/tex/latex/pgf/utilities/pgffor.sty (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
 Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
-\pgffor@iter=\dimen304
-\pgffor@skip=\dimen305
+\pgffor@iter=\dimen308
+\pgffor@skip=\dimen309
 \pgffor@stack=\toks46
 \pgffor@toks=\toks47
 )) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
@@ -615,16 +624,16 @@ Package: tikz 2023-01-15 v3.1.10 (3.1.10)
  (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@plot@mark@count=\count341
-\pgfplotmarksize=\dimen306
+\pgfplotmarksize=\dimen310
 )
-\tikz@lastx=\dimen307
-\tikz@lasty=\dimen308
-\tikz@lastxsaved=\dimen309
-\tikz@lastysaved=\dimen310
-\tikz@lastmovetox=\dimen311
-\tikz@lastmovetoy=\dimen312
-\tikzleveldistance=\dimen313
-\tikzsiblingdistance=\dimen314
+\tikz@lastx=\dimen311
+\tikz@lasty=\dimen312
+\tikz@lastxsaved=\dimen313
+\tikz@lastysaved=\dimen314
+\tikz@lastmovetox=\dimen315
+\tikz@lastmovetoy=\dimen316
+\tikzleveldistance=\dimen317
+\tikzsiblingdistance=\dimen318
 \tikz@figbox=\box78
 \tikz@figbox@bg=\box79
 \tikz@tempbox=\box80
@@ -658,7 +667,7 @@ Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
  (/usr/local/texlive/2023/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex)) (/usr/local/texlive/2023/texmf-dist/tex/generic/babel/babel.sty
 Package: babel 2023/02/13 3.86 The Babel package
 \babel@savecnt=\count354
-\U@D=\dimen315
+\U@D=\dimen319
 \l@unhyphenated=\language87
  (/usr/local/texlive/2023/texmf-dist/tex/generic/babel/txtbabel.def)
 \bbl@readstream=\read3
@@ -680,7 +689,7 @@ Package: inputenc 2021/02/14 v1.3d Input encoding file
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/siunitx/siunitx.sty
 Package: siunitx 2023-03-04 v3.2.2 A comprehensive (SI) units package
-\l__siunitx_angle_tmp_dim=\dimen316
+\l__siunitx_angle_tmp_dim=\dimen320
 \l__siunitx_angle_marker_box=\box83
 \l__siunitx_angle_unit_box=\box84
 \l__siunitx_compound_count_int=\count359
@@ -697,41 +706,41 @@ Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages 
 \l__siunitx_number_group_size_int=\count367
 \l__siunitx_number_group_minimum_int=\count368
 \l__siunitx_table_tmp_box=\box85
-\l__siunitx_table_tmp_dim=\dimen317
-\l__siunitx_table_column_width_dim=\dimen318
+\l__siunitx_table_tmp_dim=\dimen321
+\l__siunitx_table_column_width_dim=\dimen322
 \l__siunitx_table_integer_box=\box86
 \l__siunitx_table_decimal_box=\box87
 \l__siunitx_table_uncert_box=\box88
 \l__siunitx_table_before_box=\box89
 \l__siunitx_table_after_box=\box90
-\l__siunitx_table_before_dim=\dimen319
-\l__siunitx_table_carry_dim=\dimen320
+\l__siunitx_table_before_dim=\dimen323
+\l__siunitx_table_carry_dim=\dimen324
 \l__siunitx_unit_tmp_int=\count369
 \l__siunitx_unit_position_int=\count370
 \l__siunitx_unit_total_int=\count371
  (/usr/local/texlive/2023/texmf-dist/tex/latex/tools/array.sty
 Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
-\col@sep=\dimen321
+\col@sep=\dimen325
 \ar@mcellbox=\box91
-\extrarowheight=\dimen322
+\extrarowheight=\dimen326
 \NC@list=\toks50
-\extratabsurround=\skip69
-\backup@length=\skip70
+\extratabsurround=\skip70
+\backup@length=\skip71
 \ar@cellbox=\box92
 )) (/usr/local/texlive/2023/texmf-dist/tex/latex/textpos/textpos.sty
 Package: textpos 2022/07/23 v1.10.1
 Package textpos Info: choosing support for LaTeX3 on input line 60.
 \TP@textbox=\box93
 \TP@holdbox=\box94
-\TPHorizModule=\dimen323
-\TPVertModule=\dimen324
-\TP@margin=\dimen325
-\TP@absmargin=\dimen326
+\TPHorizModule=\dimen327
+\TPVertModule=\dimen328
+\TP@margin=\dimen329
+\TP@absmargin=\dimen330
 
 Grid set 16 x 16 = 22.7622pt x 17.07166pt
-\TPboxrulesize=\dimen327
-\TP@ox=\dimen328
-\TP@oy=\dimen329
+\TPboxrulesize=\dimen331
+\TP@ox=\dimen332
+\TP@oy=\dimen333
 \TP@tbargs=\toks51
 TextBlockOrigin set to 0pt x 0pt
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/oberdiek/pdfcolparallel.sty
@@ -739,12 +748,12 @@ Package: pdfcolparallel 2019/12/29 v1.5 Color stacks support for parallel (HO)
  (/usr/local/texlive/2023/texmf-dist/tex/latex/parallel/parallel.sty
 Package: parallel 2003/04/13, setting two texts parallel (me)
  `parallel': setting two texts parallel, (beta 4) 2003/04/13.
-\ParallelLWidth=\dimen330
-\ParallelRWidth=\dimen331
-\ParallelTextWidth=\dimen332
-\ParallelLeftMargin=\dimen333
-\ParallelUserMidSkip=\dimen334
-\ParallelMainMidSkip=\dimen335
+\ParallelLWidth=\dimen334
+\ParallelRWidth=\dimen335
+\ParallelTextWidth=\dimen336
+\ParallelLeftMargin=\dimen337
+\ParallelUserMidSkip=\dimen338
+\ParallelMainMidSkip=\dimen339
 \ParallelLBox=\box95
 \ParallelRBox=\box96
 \ParallelBoxVar=\box97
@@ -793,43 +802,43 @@ Package: physics
  (/usr/local/texlive/2023/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 Package: xparse 2023-02-02 L3 Experimental document command parser
 )) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.pathreplacing.code.tex (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.code.tex (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.code.tex
-\pgfdecoratedcompleteddistance=\dimen336
-\pgfdecoratedremainingdistance=\dimen337
-\pgfdecoratedinputsegmentcompleteddistance=\dimen338
-\pgfdecoratedinputsegmentremainingdistance=\dimen339
-\pgf@decorate@distancetomove=\dimen340
+\pgfdecoratedcompleteddistance=\dimen340
+\pgfdecoratedremainingdistance=\dimen341
+\pgfdecoratedinputsegmentcompleteddistance=\dimen342
+\pgfdecoratedinputsegmentremainingdistance=\dimen343
+\pgf@decorate@distancetomove=\dimen344
 \pgf@decorate@repeatstate=\count384
-\pgfdecorationsegmentamplitude=\dimen341
-\pgfdecorationsegmentlength=\dimen342
+\pgfdecorationsegmentamplitude=\dimen345
+\pgfdecorationsegmentlength=\dimen346
 )
 \tikz@lib@dec@box=\box109
 ) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pathreplacing.code.tex)) (/usr/local/texlive/2023/texmf-dist/tex/latex/tcolorbox/tcbfitting.code.tex
 Library (tcolorbox): 'tcbfitting.code.tex' version '6.0.1'
-\tcbfitdim=\dimen343
-\tcb@lowerfitdim=\dimen344
-\tcb@upperfitdim=\dimen345
+\tcbfitdim=\dimen347
+\tcb@lowerfitdim=\dimen348
+\tcb@upperfitdim=\dimen349
 \tcb@cur@hbadness=\count385
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/beamer/beamerthemeWarsaw.sty (/usr/local/texlive/2023/texmf-dist/tex/latex/beamer/beamerinnerthemerounded.sty) (/usr/local/texlive/2023/texmf-dist/tex/latex/beamer/beamerouterthemeshadow.sty (/usr/local/texlive/2023/texmf-dist/tex/latex/beamer/beamerouterthemesplit.sty)) (/usr/local/texlive/2023/texmf-dist/tex/latex/beamer/beamercolorthemeorchid.sty) (/usr/local/texlive/2023/texmf-dist/tex/latex/beamer/beamercolorthemewhale.sty)) (/usr/local/texlive/2023/texmf-dist/tex/latex/beamer/beamercolorthemestructure.sty) (/usr/local/texlive/2023/texmf-dist/tex/latex/beamer/beamerfontthemeserif.sty) (./01beamer.aux)
 \openout1 = `01beamer.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 114.
-LaTeX Font Info:    ... okay on input line 114.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 114.
-LaTeX Font Info:    ... okay on input line 114.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 114.
-LaTeX Font Info:    ... okay on input line 114.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 114.
-LaTeX Font Info:    ... okay on input line 114.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 114.
-LaTeX Font Info:    ... okay on input line 114.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 114.
-LaTeX Font Info:    ... okay on input line 114.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 114.
-LaTeX Font Info:    ... okay on input line 114.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 114.
-LaTeX Font Info:    ... okay on input line 114.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 114.
-LaTeX Font Info:    ... okay on input line 114.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 118.
+LaTeX Font Info:    ... okay on input line 118.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 118.
+LaTeX Font Info:    ... okay on input line 118.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 118.
+LaTeX Font Info:    ... okay on input line 118.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 118.
+LaTeX Font Info:    ... okay on input line 118.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 118.
+LaTeX Font Info:    ... okay on input line 118.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 118.
+LaTeX Font Info:    ... okay on input line 118.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 118.
+LaTeX Font Info:    ... okay on input line 118.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 118.
+LaTeX Font Info:    ... okay on input line 118.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 118.
+LaTeX Font Info:    ... okay on input line 118.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -868,13 +877,13 @@ LaTeX Font Info:    ... okay on input line 114.
 (/usr/local/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count386
-\scratchdimen=\dimen346
+\scratchdimen=\dimen350
 \scratchbox=\box110
 \nofMPsegments=\count387
 \nofMParguments=\count388
 \everyMPshowfont=\toks54
 \MPscratchCnt=\count389
-\MPscratchDim=\dimen347
+\MPscratchDim=\dimen351
 \MPnumerator=\count390
 \makeMPintoPDFobject=\count391
 \everyMPtoPDFconversion=\toks55
@@ -884,7 +893,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (/usr/local/texlive/2023/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-Package hyperref Info: Link coloring OFF on input line 114.
+Package hyperref Info: Link coloring OFF on input line 118.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/translator/translator-basic-dictionary-English.dict
 Dictionary: translator-basic-dictionary, Language: English 
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/translator/translator-bibliography-dictionary-English.dict
@@ -900,8 +909,8 @@ Dictionary: translator-theorem-dictionary, Language: English
 )
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Info: Redefining \it@ocap on input line 114.
-LaTeX Info: Redefining \it@ccap on input line 114.
+LaTeX Info: Redefining \it@ocap on input line 118.
+LaTeX Info: Redefining \it@ccap on input line 118.
 
 
 Package siunitx Warning: Detected the "physics" package:
@@ -914,25 +923,25 @@ Package siunitx Warning: Detected the "physics" package:
 (siunitx)                
 (siunitx)                to your preamble.
 
-Package translations Info: no dictionary file `translations-basic-dictionary-italian.trsl' found. on input line 114.
+Package translations Info: no dictionary file `translations-basic-dictionary-italian.trsl' found. on input line 118.
 (./01beamer.nav)
 <logo-unipd.png, id=32, 2309.62875pt x 1043.9pt>
 File: logo-unipd.png Graphic file (type png)
 <use logo-unipd.png>
-Package pdftex.def Info: logo-unipd.png  used on input line 118.
+Package pdftex.def Info: logo-unipd.png  used on input line 122.
 (pdftex.def)             Requested size: 96.73918pt x 43.7081pt.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 118.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 122.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 118.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 122.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 <logo-dfa.png, id=33, 321.1197pt x 113.7048pt>
 File: logo-dfa.png Graphic file (type png)
 <use logo-dfa.png>
-Package pdftex.def Info: logo-dfa.png  used on input line 118.
+Package pdftex.def Info: logo-dfa.png  used on input line 122.
 (pdftex.def)             Requested size: 119.50148pt x 42.313pt.
  [1
 
@@ -940,9 +949,27 @@ Package pdftex.def Info: logo-dfa.png  used on input line 118.
 
 ] (./Figure/numerical-methods-scheme.tex) [3
 
-] [4
+] (./Figure/second-order-operator.tex) [4
 
-] [5
+] (./Figure/second-order-operator.tex) [5
+
+] [6
+
+] [7
+
+] [8
+
+] [9
+
+] [10
+
+] [11
+
+] [12
+
+] [13
+
+] [14
 
 ]
 \tf@nav=\write5
@@ -956,18 +983,18 @@ Package pdftex.def Info: logo-dfa.png  used on input line 118.
 
  (./01beamer.aux) ) 
 Here is how much of TeX's memory you used:
- 36076 strings out of 476025
- 768794 string characters out of 5790017
+ 36325 strings out of 476025
+ 773394 string characters out of 5790017
  1869388 words of memory out of 5000000
- 55860 multiletter control sequences out of 15000+600000
- 527380 words of font info for 66 fonts, out of 8000000 for 9000
+ 56067 multiletter control sequences out of 15000+600000
+ 531604 words of font info for 77 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,19n,122p,490b,908s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx0800.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx0900.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm0500.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb>
-Output written on 01beamer.pdf (5 pages, 491449 bytes).
+</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmbsy7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx0700.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx0800.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx0900.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm0500.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb>
+Output written on 01beamer.pdf (14 pages, 605938 bytes).
 PDF statistics:
- 271 PDF objects out of 1000 (max. 8388607)
- 205 compressed objects within 3 object streams
- 12 named destinations out of 1000 (max. 500000)
- 121 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 562 PDF objects out of 1000 (max. 8388607)
+ 465 compressed objects within 5 object streams
+ 30 named destinations out of 1000 (max. 500000)
+ 133 words of extra memory for PDF output out of 10000 (max. 10000000)
 
