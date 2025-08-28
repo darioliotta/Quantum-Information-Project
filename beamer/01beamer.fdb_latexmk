@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1756423176 "/Users/darioliotta/Documents/Physics of Data/Quantum Information and Computing/Project/beamer/01beamer.tex" "01beamer.pdf" "01beamer" 1756423180 0
-  "/Users/darioliotta/Documents/Physics of Data/Quantum Information and Computing/Project/beamer/01beamer.tex" 1756423176 8713 dcf157e666131bceb60d36afaed7f0ae ""
+["pdflatex"] 1756423372 "/Users/darioliotta/Documents/Physics of Data/Quantum Information and Computing/Project/beamer/01beamer.tex" "01beamer.pdf" "01beamer" 1756423376 0
+  "/Users/darioliotta/Documents/Physics of Data/Quantum Information and Computing/Project/beamer/01beamer.tex" 1756423367 8771 6f889e9ffd9120a2bc42250d97f03057 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1136849721 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/ecbx0500.tfm" 1136768653 3584 0913860e6fa2bdf78ecaf460b391112b ""
@@ -304,9 +304,9 @@
   "/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1691781219 4623355 b8cad38412faebe1ce5b780a45db67bd ""
   "/usr/local/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt" 1691781078 7883452 573af612b37ea826f30a0155194a2b8b ""
   "/usr/local/texlive/2023/texmf.cnf" 1678822455 577 1b2b1af17af2508fb20dd85783af4050 ""
-  "01beamer.aux" 1756423179 3002 4a10336452093898ceefc51d89ee036c "pdflatex"
-  "01beamer.nav" 1756423179 1395 d1bf000c83581f9f8367be677d3fa94c "pdflatex"
-  "01beamer.tex" 1756423176 8713 dcf157e666131bceb60d36afaed7f0ae ""
+  "01beamer.aux" 1756423376 3131 983387a8a9305854008dc447930b8107 "pdflatex"
+  "01beamer.nav" 1756423376 1488 5bf83e160e2bb127877d665988a4cd7b "pdflatex"
+  "01beamer.tex" 1756423367 8771 6f889e9ffd9120a2bc42250d97f03057 ""
   "Figure/boundary-conditions-strong-formulation.tex" 1756382987 625 ad6cf5fe8761851621e01be3d73cdcfc ""
   "Figure/boundary-conditions-weak-formulation.tex" 1756383064 1157 710af2c2d15fb92179a89ba2af7b5127 ""
   "Figure/numerical-methods-scheme.tex" 1756251669 2810 ebae81a843c8a0382826266a3fd95973 ""
