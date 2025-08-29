@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.11)  29 AUG 2025 01:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.11)  30 AUG 2025 01:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -996,28 +996,181 @@ Overfull \hbox (1.8411pt too wide) in paragraph at lines 27--28
 
 ] [19
 
+] [20
+
+] [21
+
 ]
-<Immagini/mesh-example.jpeg, id=578, 1003.75pt x 464.73625pt>
+<Immagini/mesh-example.jpeg, id=632, 1003.75pt x 464.73625pt>
 File: Immagini/mesh-example.jpeg Graphic file (type jpg)
 <use Immagini/mesh-example.jpeg>
-Package pdftex.def Info: Immagini/mesh-example.jpeg  used on input line 299.
+Package pdftex.def Info: Immagini/mesh-example.jpeg  used on input line 329.
 (pdftex.def)             Requested size: 221.24907pt x 102.43375pt.
- [20
+ [22
 
  <./Immagini/mesh-example.jpeg>]
 File: Immagini/mesh-example.jpeg Graphic file (type jpg)
 <use Immagini/mesh-example.jpeg>
-Package pdftex.def Info: Immagini/mesh-example.jpeg  used on input line 299.
+Package pdftex.def Info: Immagini/mesh-example.jpeg  used on input line 329.
 (pdftex.def)             Requested size: 221.24907pt x 102.43375pt.
- [21
+ [23
 
-] [22
+] (./Figure/elements.tex
+<Immagini/element-1D.png, id=685, 612.2875pt x 164.11313pt>
+File: Immagini/element-1D.png Graphic file (type png)
+<use Immagini/element-1D.png>
+Package pdftex.def Info: Immagini/element-1D.png  used on input line 15.
+(pdftex.def)             Requested size: 66.9899pt x 17.95483pt.
+<Immagini/elements-2D.png, id=687, 947.54pt x 427.5975pt>
+File: Immagini/elements-2D.png Graphic file (type png)
+<use Immagini/elements-2D.png>
+Package pdftex.def Info: Immagini/elements-2D.png  used on input line 16.
+(pdftex.def)             Requested size: 61.45703pt x 27.72955pt.
+<Immagini/elements-3D.png, id=688, 1178.90437pt x 482.80376pt>
+File: Immagini/elements-3D.png Graphic file (type png)
+<use Immagini/elements-3D.png>
+Package pdftex.def Info: Immagini/elements-3D.png  used on input line 17.
+(pdftex.def)             Requested size: 67.60414pt x 27.68512pt.
+<Immagini/frame-elements.png, id=689, 265.49188pt x 644.4075pt>
+File: Immagini/frame-elements.png Graphic file (type png)
+<use Immagini/frame-elements.png>
+Package pdftex.def Info: Immagini/frame-elements.png  used on input line 25.
+(pdftex.def)             Requested size: 43.02039pt x 104.41507pt.
+<Immagini/triangular elements.png, id=690, 182.18062pt x 634.37pt>
+File: Immagini/triangular elements.png Graphic file (type png)
+<use Immagini/triangular elements.png>
+Package pdftex.def Info: Immagini/triangular elements.png  used on input line 25.
+(pdftex.def)             Requested size: 30.73085pt x 106.99933pt.
+<Immagini/brick-elements.png, id=691, 340.77313pt x 628.3475pt>
+File: Immagini/brick-elements.png Graphic file (type png)
+<use Immagini/brick-elements.png>
+Package pdftex.def Info: Immagini/brick-elements.png  used on input line 25.
+(pdftex.def)             Requested size: 64.53293pt x 118.98457pt.
+) [24
 
-] [23
+ <./Immagini/element-1D.png> <./Immagini/elements-2D.png> <./Immagini/elements-3D.png> <./Immagini/frame-elements.png> <./Immagini/triangular elements.png> <./Immagini/brick-elements.png>] (./Figure/elements.tex
+File: Immagini/element-1D.png Graphic file (type png)
+<use Immagini/element-1D.png>
+Package pdftex.def Info: Immagini/element-1D.png  used on input line 15.
+(pdftex.def)             Requested size: 66.9899pt x 17.95483pt.
+File: Immagini/elements-2D.png Graphic file (type png)
+<use Immagini/elements-2D.png>
+Package pdftex.def Info: Immagini/elements-2D.png  used on input line 16.
+(pdftex.def)             Requested size: 61.45703pt x 27.72955pt.
+File: Immagini/elements-3D.png Graphic file (type png)
+<use Immagini/elements-3D.png>
+Package pdftex.def Info: Immagini/elements-3D.png  used on input line 17.
+(pdftex.def)             Requested size: 67.60414pt x 27.68512pt.
+File: Immagini/frame-elements.png Graphic file (type png)
+<use Immagini/frame-elements.png>
+Package pdftex.def Info: Immagini/frame-elements.png  used on input line 25.
+(pdftex.def)             Requested size: 43.02039pt x 104.41507pt.
+File: Immagini/triangular elements.png Graphic file (type png)
+<use Immagini/triangular elements.png>
+Package pdftex.def Info: Immagini/triangular elements.png  used on input line 25.
+(pdftex.def)             Requested size: 30.73085pt x 106.99933pt.
+File: Immagini/brick-elements.png Graphic file (type png)
+<use Immagini/brick-elements.png>
+Package pdftex.def Info: Immagini/brick-elements.png  used on input line 25.
+(pdftex.def)             Requested size: 64.53293pt x 118.98457pt.
+) [25
 
-] [24
+] (./Figure/elements.tex
+File: Immagini/element-1D.png Graphic file (type png)
+<use Immagini/element-1D.png>
+Package pdftex.def Info: Immagini/element-1D.png  used on input line 15.
+(pdftex.def)             Requested size: 66.9899pt x 17.95483pt.
+File: Immagini/elements-2D.png Graphic file (type png)
+<use Immagini/elements-2D.png>
+Package pdftex.def Info: Immagini/elements-2D.png  used on input line 16.
+(pdftex.def)             Requested size: 61.45703pt x 27.72955pt.
+File: Immagini/elements-3D.png Graphic file (type png)
+<use Immagini/elements-3D.png>
+Package pdftex.def Info: Immagini/elements-3D.png  used on input line 17.
+(pdftex.def)             Requested size: 67.60414pt x 27.68512pt.
+File: Immagini/frame-elements.png Graphic file (type png)
+<use Immagini/frame-elements.png>
+Package pdftex.def Info: Immagini/frame-elements.png  used on input line 25.
+(pdftex.def)             Requested size: 43.02039pt x 104.41507pt.
+File: Immagini/triangular elements.png Graphic file (type png)
+<use Immagini/triangular elements.png>
+Package pdftex.def Info: Immagini/triangular elements.png  used on input line 25.
+(pdftex.def)             Requested size: 30.73085pt x 106.99933pt.
+File: Immagini/brick-elements.png Graphic file (type png)
+<use Immagini/brick-elements.png>
+Package pdftex.def Info: Immagini/brick-elements.png  used on input line 25.
+(pdftex.def)             Requested size: 64.53293pt x 118.98457pt.
+) [26
 
 ]
+<Immagini/mesh-application-1.jpeg, id=778, 1003.75pt x 608.2725pt>
+File: Immagini/mesh-application-1.jpeg Graphic file (type jpg)
+<use Immagini/mesh-application-1.jpeg>
+Package pdftex.def Info: Immagini/mesh-application-1.jpeg  used on input line 367.
+(pdftex.def)             Requested size: 153.64493pt x 93.10251pt.
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 367.
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 2022/07/10 v2.5l Standard LaTeX font definitions
+)
+Underfull \hbox (badness 10000) in paragraph at lines 367--367
+[]\T1/cmtt/m/n/5 Image from COMSOL Multiplysics Cyclopedia, ``Finite
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 367--367
+[]\T1/cmtt/m/n/5 Image from COMSOL Multiplysics Blog, ``Meshing
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 367--367
+\T1/cmtt/m/n/5 Your Geometry: When to Use the Various Element
+ []
+
+<Immagini/mesh-application-2.png, id=779, 1432.60219pt x 756.57657pt>
+File: Immagini/mesh-application-2.png Graphic file (type png)
+<use Immagini/mesh-application-2.png>
+Package pdftex.def Info: Immagini/mesh-application-2.png  used on input line 367.
+(pdftex.def)             Requested size: 153.64493pt x 81.13414pt.
+[27
+
+ <./Immagini/mesh-application-1.jpeg> <./Immagini/mesh-application-2.png>] (./Figure/choise-of-the-base.tex
+<Immagini/local-basis-functions.png, id=808, 586.8324pt x 442.2924pt>
+File: Immagini/local-basis-functions.png Graphic file (type png)
+<use Immagini/local-basis-functions.png>
+Package pdftex.def Info: Immagini/local-basis-functions.png  used on input line 29.
+(pdftex.def)             Requested size: 138.2795pt x 104.21542pt.
+) [28
+
+ <./Immagini/local-basis-functions.png>] (./Figure/choise-of-the-base.tex
+File: Immagini/local-basis-functions.png Graphic file (type png)
+<use Immagini/local-basis-functions.png>
+Package pdftex.def Info: Immagini/local-basis-functions.png  used on input line 29.
+(pdftex.def)             Requested size: 138.2795pt x 104.21542pt.
+) [29
+
+] (./Figure/choise-of-the-base.tex
+File: Immagini/local-basis-functions.png Graphic file (type png)
+<use Immagini/local-basis-functions.png>
+Package pdftex.def Info: Immagini/local-basis-functions.png  used on input line 29.
+(pdftex.def)             Requested size: 138.2795pt x 104.21542pt.
+) [30
+
+] (./Figure/choise-of-the-base.tex
+File: Immagini/local-basis-functions.png Graphic file (type png)
+<use Immagini/local-basis-functions.png>
+Package pdftex.def Info: Immagini/local-basis-functions.png  used on input line 29.
+(pdftex.def)             Requested size: 138.2795pt x 104.21542pt.
+) [31
+
+]
+<Immagini/fenics-logo.png, id=915, 948.1824pt x 331.2375pt>
+File: Immagini/fenics-logo.png Graphic file (type png)
+<use Immagini/fenics-logo.png>
+Package pdftex.def Info: Immagini/fenics-logo.png  used on input line 380.
+(pdftex.def)             Requested size: 184.3758pt x 64.40657pt.
+ [32
+
+ <./Immagini/fenics-logo.png>]
 \tf@nav=\write5
 \openout5 = `01beamer.nav'.
 
@@ -1029,18 +1182,18 @@ Package pdftex.def Info: Immagini/mesh-example.jpeg  used on input line 299.
 
  (./01beamer.aux) ) 
 Here is how much of TeX's memory you used:
- 36408 strings out of 476025
- 775262 string characters out of 5790017
- 1872388 words of memory out of 5000000
- 56102 multiletter control sequences out of 15000+600000
- 533928 words of font info for 84 fonts, out of 8000000 for 9000
+ 36575 strings out of 476025
+ 779264 string characters out of 5790017
+ 1871388 words of memory out of 5000000
+ 56222 multiletter control sequences out of 15000+600000
+ 534927 words of font info for 86 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,19n,122p,490b,908s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmbsy7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib5.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx0700.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx0800.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx0900.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm0500.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb>
-Output written on 01beamer.pdf (24 pages, 834457 bytes).
+</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmbsy7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib5.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx0700.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx0800.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx0900.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm0500.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfti0800.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sftt0800.pfb>
+Output written on 01beamer.pdf (32 pages, 3523919 bytes).
 PDF statistics:
- 863 PDF objects out of 1000 (max. 8388607)
- 740 compressed objects within 8 object streams
- 50 named destinations out of 1000 (max. 500000)
- 138 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1111 PDF objects out of 1200 (max. 8388607)
+ 954 compressed objects within 10 object streams
+ 66 named destinations out of 1000 (max. 500000)
+ 188 words of extra memory for PDF output out of 10000 (max. 10000000)
 

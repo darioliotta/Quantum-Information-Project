@@ -1835,6 +1835,150 @@ INPUT ./Immagini/mesh-example.jpeg
 INPUT ./Immagini/mesh-example.jpeg
 INPUT Immagini/mesh-example.jpeg
 INPUT ./Immagini/mesh-example.jpeg
+INPUT ./Figure/elements.tex
+INPUT Figure/elements.tex
+INPUT ./Figure/elements.tex
+INPUT Figure/elements.tex
+INPUT ./Immagini/element-1D.png
+INPUT ./Immagini/element-1D.png
+INPUT Immagini/element-1D.png
+INPUT ./Immagini/element-1D.png
+INPUT ./Immagini/element-1D.png
+INPUT ./Immagini/elements-2D.png
+INPUT ./Immagini/elements-2D.png
+INPUT Immagini/elements-2D.png
+INPUT ./Immagini/elements-2D.png
+INPUT ./Immagini/elements-2D.png
+INPUT ./Immagini/elements-3D.png
+INPUT ./Immagini/elements-3D.png
+INPUT Immagini/elements-3D.png
+INPUT ./Immagini/elements-3D.png
+INPUT ./Immagini/elements-3D.png
+INPUT ./Immagini/frame-elements.png
+INPUT ./Immagini/frame-elements.png
+INPUT Immagini/frame-elements.png
+INPUT ./Immagini/frame-elements.png
+INPUT ./Immagini/frame-elements.png
+INPUT ./Immagini/triangular elements.png
+INPUT ./Immagini/triangular elements.png
+INPUT Immagini/triangular elements.png
+INPUT ./Immagini/triangular elements.png
+INPUT ./Immagini/triangular elements.png
+INPUT ./Immagini/brick-elements.png
+INPUT ./Immagini/brick-elements.png
+INPUT Immagini/brick-elements.png
+INPUT ./Immagini/brick-elements.png
+INPUT ./Immagini/brick-elements.png
+INPUT ./Figure/elements.tex
+INPUT Figure/elements.tex
+INPUT ./Figure/elements.tex
+INPUT Figure/elements.tex
+INPUT ./Immagini/element-1D.png
+INPUT ./Immagini/element-1D.png
+INPUT Immagini/element-1D.png
+INPUT ./Immagini/element-1D.png
+INPUT ./Immagini/elements-2D.png
+INPUT ./Immagini/elements-2D.png
+INPUT Immagini/elements-2D.png
+INPUT ./Immagini/elements-2D.png
+INPUT ./Immagini/elements-3D.png
+INPUT ./Immagini/elements-3D.png
+INPUT Immagini/elements-3D.png
+INPUT ./Immagini/elements-3D.png
+INPUT ./Immagini/frame-elements.png
+INPUT ./Immagini/frame-elements.png
+INPUT Immagini/frame-elements.png
+INPUT ./Immagini/frame-elements.png
+INPUT ./Immagini/triangular elements.png
+INPUT ./Immagini/triangular elements.png
+INPUT Immagini/triangular elements.png
+INPUT ./Immagini/triangular elements.png
+INPUT ./Immagini/brick-elements.png
+INPUT ./Immagini/brick-elements.png
+INPUT Immagini/brick-elements.png
+INPUT ./Immagini/brick-elements.png
+INPUT ./Figure/elements.tex
+INPUT Figure/elements.tex
+INPUT ./Figure/elements.tex
+INPUT Figure/elements.tex
+INPUT ./Immagini/element-1D.png
+INPUT ./Immagini/element-1D.png
+INPUT Immagini/element-1D.png
+INPUT ./Immagini/element-1D.png
+INPUT ./Immagini/elements-2D.png
+INPUT ./Immagini/elements-2D.png
+INPUT Immagini/elements-2D.png
+INPUT ./Immagini/elements-2D.png
+INPUT ./Immagini/elements-3D.png
+INPUT ./Immagini/elements-3D.png
+INPUT Immagini/elements-3D.png
+INPUT ./Immagini/elements-3D.png
+INPUT ./Immagini/frame-elements.png
+INPUT ./Immagini/frame-elements.png
+INPUT Immagini/frame-elements.png
+INPUT ./Immagini/frame-elements.png
+INPUT ./Immagini/triangular elements.png
+INPUT ./Immagini/triangular elements.png
+INPUT Immagini/triangular elements.png
+INPUT ./Immagini/triangular elements.png
+INPUT ./Immagini/brick-elements.png
+INPUT ./Immagini/brick-elements.png
+INPUT Immagini/brick-elements.png
+INPUT ./Immagini/brick-elements.png
+INPUT ./Immagini/mesh-application-1.jpeg
+INPUT ./Immagini/mesh-application-1.jpeg
+INPUT Immagini/mesh-application-1.jpeg
+INPUT ./Immagini/mesh-application-1.jpeg
+INPUT ./Immagini/mesh-application-1.jpeg
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/ecti0800.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/base/t1cmtt.fd
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/base/t1cmtt.fd
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/base/t1cmtt.fd
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/base/t1cmtt.fd
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/ectt0800.tfm
+INPUT ./Immagini/mesh-application-2.png
+INPUT ./Immagini/mesh-application-2.png
+INPUT Immagini/mesh-application-2.png
+INPUT ./Immagini/mesh-application-2.png
+INPUT ./Immagini/mesh-application-2.png
+INPUT ./Figure/choise-of-the-base.tex
+INPUT Figure/choise-of-the-base.tex
+INPUT ./Figure/choise-of-the-base.tex
+INPUT Figure/choise-of-the-base.tex
+INPUT ./Immagini/local-basis-functions.png
+INPUT ./Immagini/local-basis-functions.png
+INPUT Immagini/local-basis-functions.png
+INPUT ./Immagini/local-basis-functions.png
+INPUT ./Immagini/local-basis-functions.png
+INPUT ./Figure/choise-of-the-base.tex
+INPUT Figure/choise-of-the-base.tex
+INPUT ./Figure/choise-of-the-base.tex
+INPUT Figure/choise-of-the-base.tex
+INPUT ./Immagini/local-basis-functions.png
+INPUT ./Immagini/local-basis-functions.png
+INPUT Immagini/local-basis-functions.png
+INPUT ./Immagini/local-basis-functions.png
+INPUT ./Figure/choise-of-the-base.tex
+INPUT Figure/choise-of-the-base.tex
+INPUT ./Figure/choise-of-the-base.tex
+INPUT Figure/choise-of-the-base.tex
+INPUT ./Immagini/local-basis-functions.png
+INPUT ./Immagini/local-basis-functions.png
+INPUT Immagini/local-basis-functions.png
+INPUT ./Immagini/local-basis-functions.png
+INPUT ./Figure/choise-of-the-base.tex
+INPUT Figure/choise-of-the-base.tex
+INPUT ./Figure/choise-of-the-base.tex
+INPUT Figure/choise-of-the-base.tex
+INPUT ./Immagini/local-basis-functions.png
+INPUT ./Immagini/local-basis-functions.png
+INPUT Immagini/local-basis-functions.png
+INPUT ./Immagini/local-basis-functions.png
+INPUT ./Immagini/fenics-logo.png
+INPUT ./Immagini/fenics-logo.png
+INPUT Immagini/fenics-logo.png
+INPUT ./Immagini/fenics-logo.png
+INPUT ./Immagini/fenics-logo.png
 OUTPUT 01beamer.nav
 OUTPUT 01beamer.toc
 OUTPUT 01beamer.snm
@@ -1849,6 +1993,7 @@ INPUT /usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pf
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib5.pfb
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib7.pfb
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
@@ -1871,4 +2016,6 @@ INPUT /usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pf
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfti0800.pfb
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sftt0800.pfb
