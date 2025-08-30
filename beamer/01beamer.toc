@@ -1,3 +1,4 @@
 \babel@toc {italian}{}\relax 
 \babel@toc {italian}{}\relax 
 \beamer@sectionintoc {1}{Finite Element Method}{2}{0}{1}
+\beamer@sectionintoc {2}{Classical Wave Equation}{37}{0}{2}

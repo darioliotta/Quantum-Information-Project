@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.11)  30 AUG 2025 01:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.11)  30 AUG 2025 21:01
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -797,48 +797,126 @@ Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 \tcb@temp=\box106
 \tcb@temp=\box107
 \tcb@temp=\box108
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/physics/physics.sty
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/tcolorbox/tcbraster.code.tex
+Library (tcolorbox): 'tcbraster.code.tex' version '6.0.1'
+\c@tcbrastercolumn=\count384
+\c@tcbrasterrow=\count385
+\c@tcbrasternum=\count386
+\c@tcbraster=\count387
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/tcolorbox/tcbskins.code.tex
+Library (tcolorbox): 'tcbskins.code.tex' version '6.0.1'
+(/usr/local/texlive/2023/texmf-dist/tex/latex/tikzfill/tikzfill.image.sty
+Package: tikzfill.image 2022/07/20 v1.0.0 Image filling library for TikZ
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/tikzfill/tikzfill-common.sty
+Package: tikzfill-common 2022/07/20 v1.0.0 Auxiliary code for tikzfill
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/tikzfill/tikzlibraryfill.image.code.tex
+File: tikzlibraryfill.image.code.tex 2022/07/20 v1.0.0 Image filling library
+\l__tikzfill_img_box=\box109
+)) (/usr/local/texlive/2023/texmf-dist/tex/latex/tcolorbox/tcbskinsjigsaw.code.tex
+Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '6.0.1'
+)) (/usr/local/texlive/2023/texmf-dist/tex/latex/tcolorbox/tcbbreakable.code.tex
+Library (tcolorbox): 'tcbbreakable.code.tex' version '6.0.1'
+Package pdfcol Info: New color stack `tcb@breakable' = 3 on input line 23.
+\tcb@testbox=\box110
+\tcb@totalupperbox=\box111
+\tcb@totallowerbox=\box112
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/tcolorbox/tcbhooks.code.tex
+Library (tcolorbox): 'tcbhooks.code.tex' version '6.0.1'
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/tcolorbox/tcbtheorems.code.tex
+Library (tcolorbox): 'tcbtheorems.code.tex' version '6.0.1'
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/tcolorbox/tcbfitting.code.tex
+Library (tcolorbox): 'tcbfitting.code.tex' version '6.0.1'
+\tcbfitdim=\dimen340
+\tcb@lowerfitdim=\dimen341
+\tcb@upperfitdim=\dimen342
+\tcb@cur@hbadness=\count388
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/tcolorbox/tcblistingsutf8.code.tex
+Library (tcolorbox): 'tcblistingsutf8.code.tex' version '6.0.1'
+(/usr/local/texlive/2023/texmf-dist/tex/latex/tcolorbox/tcblistings.code.tex
+Library (tcolorbox): 'tcblistings.code.tex' version '6.0.1'
+(/usr/local/texlive/2023/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count389
+\lst@gtempboxa=\box113
+\lst@token=\toks54
+\lst@length=\count390
+\lst@currlwidth=\dimen343
+\lst@column=\count391
+\lst@pos=\count392
+\lst@lostspace=\dimen344
+\lst@width=\dimen345
+\lst@newlines=\count393
+\lst@lineno=\count394
+\lst@maxwidth=\dimen346
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
+\c@lstnumber=\count395
+\lst@skipnumbers=\count396
+\lst@framebox=\box114
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2023/02/27 1.9 listings configuration
+))
+Package: listings 2023/02/27 1.9 (Carsten Heinz)
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/tcolorbox/tcblistingscore.code.tex
+Library (tcolorbox): 'tcblistingscore.code.tex' version '6.0.1'
+(/usr/local/texlive/2023/texmf-dist/tex/latex/tcolorbox/tcbprocessing.code.tex
+Library (tcolorbox): 'tcbprocessing.code.tex' version '6.0.1'
+(/usr/local/texlive/2023/texmf-dist/tex/latex/tools/shellesc.sty
+Package: shellesc 2019/11/08 v1.0c unified shell escape interface for LaTeX
+Package shellesc Info: Restricted shell escape enabled on input line 77.
+))
+\c@tcblisting=\count397
+)) (/usr/local/texlive/2023/texmf-dist/tex/latex/listingsutf8/listingsutf8.sty
+Package: listingsutf8 2019-12-10 v1.5 Allow UTF-8 in listings input (HO)
+ (/usr/local/texlive/2023/texmf-dist/tex/generic/stringenc/stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
+))) (/usr/local/texlive/2023/texmf-dist/tex/latex/tcolorbox/tcbexternal.code.tex
+Library (tcolorbox): 'tcbexternal.code.tex' version '6.0.1'
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/tcolorbox/tcbmagazine.code.tex
+Library (tcolorbox): 'tcbmagazine.code.tex' version '6.0.1'
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/tcolorbox/tcbvignette.code.tex
+Library (tcolorbox): 'tcbvignette.code.tex' version '6.0.1'
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryfadings.code.tex
+File: tikzlibraryfadings.code.tex 2023-01-15 v3.1.10 (3.1.10)
+ (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/libraries/pgflibraryfadings.code.tex
+File: pgflibraryfadings.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))) (/usr/local/texlive/2023/texmf-dist/tex/latex/tcolorbox/tcbposter.code.tex
+Library (tcolorbox): 'tcbposter.code.tex' version '6.0.1'
+)) (/usr/local/texlive/2023/texmf-dist/tex/latex/physics/physics.sty
 Package: physics 
  (/usr/local/texlive/2023/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 Package: xparse 2023-02-02 L3 Experimental document command parser
 )) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.pathreplacing.code.tex (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.code.tex (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.code.tex
-\pgfdecoratedcompleteddistance=\dimen340
-\pgfdecoratedremainingdistance=\dimen341
-\pgfdecoratedinputsegmentcompleteddistance=\dimen342
-\pgfdecoratedinputsegmentremainingdistance=\dimen343
-\pgf@decorate@distancetomove=\dimen344
-\pgf@decorate@repeatstate=\count384
-\pgfdecorationsegmentamplitude=\dimen345
-\pgfdecorationsegmentlength=\dimen346
+\pgfdecoratedcompleteddistance=\dimen347
+\pgfdecoratedremainingdistance=\dimen348
+\pgfdecoratedinputsegmentcompleteddistance=\dimen349
+\pgfdecoratedinputsegmentremainingdistance=\dimen350
+\pgf@decorate@distancetomove=\dimen351
+\pgf@decorate@repeatstate=\count398
+\pgfdecorationsegmentamplitude=\dimen352
+\pgfdecorationsegmentlength=\dimen353
 )
-\tikz@lib@dec@box=\box109
-) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pathreplacing.code.tex)) (/usr/local/texlive/2023/texmf-dist/tex/latex/tcolorbox/tcbfitting.code.tex
-Library (tcolorbox): 'tcbfitting.code.tex' version '6.0.1'
-\tcbfitdim=\dimen347
-\tcb@lowerfitdim=\dimen348
-\tcb@upperfitdim=\dimen349
-\tcb@cur@hbadness=\count385
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/beamer/beamerthemeWarsaw.sty (/usr/local/texlive/2023/texmf-dist/tex/latex/beamer/beamerinnerthemerounded.sty) (/usr/local/texlive/2023/texmf-dist/tex/latex/beamer/beamerouterthemeshadow.sty (/usr/local/texlive/2023/texmf-dist/tex/latex/beamer/beamerouterthemesplit.sty)) (/usr/local/texlive/2023/texmf-dist/tex/latex/beamer/beamercolorthemeorchid.sty) (/usr/local/texlive/2023/texmf-dist/tex/latex/beamer/beamercolorthemewhale.sty)) (/usr/local/texlive/2023/texmf-dist/tex/latex/beamer/beamercolorthemestructure.sty) (/usr/local/texlive/2023/texmf-dist/tex/latex/beamer/beamerfontthemeserif.sty) (./01beamer.aux)
+\tikz@lib@dec@box=\box115
+) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pathreplacing.code.tex)) (/usr/local/texlive/2023/texmf-dist/tex/latex/beamer/beamerthemeWarsaw.sty (/usr/local/texlive/2023/texmf-dist/tex/latex/beamer/beamerinnerthemerounded.sty) (/usr/local/texlive/2023/texmf-dist/tex/latex/beamer/beamerouterthemeshadow.sty (/usr/local/texlive/2023/texmf-dist/tex/latex/beamer/beamerouterthemesplit.sty)) (/usr/local/texlive/2023/texmf-dist/tex/latex/beamer/beamercolorthemeorchid.sty) (/usr/local/texlive/2023/texmf-dist/tex/latex/beamer/beamercolorthemewhale.sty)) (/usr/local/texlive/2023/texmf-dist/tex/latex/beamer/beamercolorthemestructure.sty) (/usr/local/texlive/2023/texmf-dist/tex/latex/beamer/beamerfontthemeserif.sty) (./01beamer.aux (./Sezioni/finite-element-method.aux) (./Sezioni/classical-wave-equation.aux))
 \openout1 = `01beamer.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 118.
-LaTeX Font Info:    ... okay on input line 118.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 118.
-LaTeX Font Info:    ... okay on input line 118.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 118.
-LaTeX Font Info:    ... okay on input line 118.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 118.
-LaTeX Font Info:    ... okay on input line 118.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 118.
-LaTeX Font Info:    ... okay on input line 118.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 118.
-LaTeX Font Info:    ... okay on input line 118.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 118.
-LaTeX Font Info:    ... okay on input line 118.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 118.
-LaTeX Font Info:    ... okay on input line 118.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 118.
-LaTeX Font Info:    ... okay on input line 118.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 131.
+LaTeX Font Info:    ... okay on input line 131.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 131.
+LaTeX Font Info:    ... okay on input line 131.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 131.
+LaTeX Font Info:    ... okay on input line 131.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 131.
+LaTeX Font Info:    ... okay on input line 131.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 131.
+LaTeX Font Info:    ... okay on input line 131.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 131.
+LaTeX Font Info:    ... okay on input line 131.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 131.
+LaTeX Font Info:    ... okay on input line 131.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 131.
+LaTeX Font Info:    ... okay on input line 131.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 131.
+LaTeX Font Info:    ... okay on input line 131.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -876,24 +954,24 @@ LaTeX Font Info:    ... okay on input line 118.
 
 (/usr/local/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count386
-\scratchdimen=\dimen350
-\scratchbox=\box110
-\nofMPsegments=\count387
-\nofMParguments=\count388
-\everyMPshowfont=\toks54
-\MPscratchCnt=\count389
-\MPscratchDim=\dimen351
-\MPnumerator=\count390
-\makeMPintoPDFobject=\count391
-\everyMPtoPDFconversion=\toks55
+\scratchcounter=\count399
+\scratchdimen=\dimen354
+\scratchbox=\box116
+\nofMPsegments=\count400
+\nofMParguments=\count401
+\everyMPshowfont=\toks55
+\MPscratchCnt=\count402
+\MPscratchDim=\dimen355
+\MPnumerator=\count403
+\makeMPintoPDFobject=\count404
+\everyMPtoPDFconversion=\toks56
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-Package hyperref Info: Link coloring OFF on input line 118.
+Package hyperref Info: Link coloring OFF on input line 131.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/translator/translator-basic-dictionary-English.dict
 Dictionary: translator-basic-dictionary, Language: English 
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/translator/translator-bibliography-dictionary-English.dict
@@ -908,9 +986,10 @@ Dictionary: translator-numbers-dictionary, Language: English
 Dictionary: translator-theorem-dictionary, Language: English 
 )
 Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Info: Redefining \it@ocap on input line 118.
-LaTeX Info: Redefining \it@ccap on input line 118.
+LaTeX Info: Redefining \it@ocap on input line 131.
+LaTeX Info: Redefining \it@ccap on input line 131.
 
 
 Package siunitx Warning: Detected the "physics" package:
@@ -923,29 +1002,34 @@ Package siunitx Warning: Detected the "physics" package:
 (siunitx)                
 (siunitx)                to your preamble.
 
-Package translations Info: no dictionary file `translations-basic-dictionary-italian.trsl' found. on input line 118.
+Package translations Info: no dictionary file `translations-basic-dictionary-italian.trsl' found. on input line 131.
+\c@lstlisting=\count405
 (./01beamer.nav)
-<logo-unipd.png, id=32, 2309.62875pt x 1043.9pt>
+<logo-unipd.png, id=69, 2309.62875pt x 1043.9pt>
 File: logo-unipd.png Graphic file (type png)
 <use logo-unipd.png>
-Package pdftex.def Info: logo-unipd.png  used on input line 122.
+Package pdftex.def Info: logo-unipd.png  used on input line 135.
 (pdftex.def)             Requested size: 96.73918pt x 43.7081pt.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 122.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 135.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 122.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 135.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<logo-dfa.png, id=33, 321.1197pt x 113.7048pt>
+<logo-dfa.png, id=70, 321.1197pt x 113.7048pt>
 File: logo-dfa.png Graphic file (type png)
 <use logo-dfa.png>
-Package pdftex.def Info: logo-dfa.png  used on input line 122.
+Package pdftex.def Info: logo-dfa.png  used on input line 135.
 (pdftex.def)             Requested size: 119.50148pt x 42.313pt.
  [1
 
-{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc} <./logo-unipd.png> <./logo-dfa.png>] (./Figure/numerical-methods-scheme.tex) [2
+{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc} <./logo-unipd.png> <./logo-dfa.png>]
+\openout2 = `Sezioni/finite-element-method.aux'.
+
+ (./Sezioni/finite-element-method.tex (./Figure/numerical-methods-scheme.tex) [2
+
 
 ] (./Figure/numerical-methods-scheme.tex) [3
 
@@ -1001,47 +1085,47 @@ Overfull \hbox (1.8411pt too wide) in paragraph at lines 27--28
 ] [21
 
 ]
-<Immagini/mesh-example.jpeg, id=632, 1003.75pt x 464.73625pt>
+<Immagini/mesh-example.jpeg, id=690, 1003.75pt x 464.73625pt>
 File: Immagini/mesh-example.jpeg Graphic file (type jpg)
 <use Immagini/mesh-example.jpeg>
-Package pdftex.def Info: Immagini/mesh-example.jpeg  used on input line 329.
-(pdftex.def)             Requested size: 221.24907pt x 102.43375pt.
+Package pdftex.def Info: Immagini/mesh-example.jpeg  used on input line 206.
+(pdftex.def)             Requested size: 215.10196pt x 99.59013pt.
  [22
 
  <./Immagini/mesh-example.jpeg>]
 File: Immagini/mesh-example.jpeg Graphic file (type jpg)
 <use Immagini/mesh-example.jpeg>
-Package pdftex.def Info: Immagini/mesh-example.jpeg  used on input line 329.
-(pdftex.def)             Requested size: 221.24907pt x 102.43375pt.
+Package pdftex.def Info: Immagini/mesh-example.jpeg  used on input line 206.
+(pdftex.def)             Requested size: 215.10196pt x 99.59013pt.
  [23
 
 ] (./Figure/elements.tex
-<Immagini/element-1D.png, id=685, 612.2875pt x 164.11313pt>
+<Immagini/element-1D.png, id=746, 612.2875pt x 164.11313pt>
 File: Immagini/element-1D.png Graphic file (type png)
 <use Immagini/element-1D.png>
 Package pdftex.def Info: Immagini/element-1D.png  used on input line 15.
 (pdftex.def)             Requested size: 66.9899pt x 17.95483pt.
-<Immagini/elements-2D.png, id=687, 947.54pt x 427.5975pt>
+<Immagini/elements-2D.png, id=748, 947.54pt x 427.5975pt>
 File: Immagini/elements-2D.png Graphic file (type png)
 <use Immagini/elements-2D.png>
 Package pdftex.def Info: Immagini/elements-2D.png  used on input line 16.
 (pdftex.def)             Requested size: 61.45703pt x 27.72955pt.
-<Immagini/elements-3D.png, id=688, 1178.90437pt x 482.80376pt>
+<Immagini/elements-3D.png, id=749, 1178.90437pt x 482.80376pt>
 File: Immagini/elements-3D.png Graphic file (type png)
 <use Immagini/elements-3D.png>
 Package pdftex.def Info: Immagini/elements-3D.png  used on input line 17.
 (pdftex.def)             Requested size: 67.60414pt x 27.68512pt.
-<Immagini/frame-elements.png, id=689, 265.49188pt x 644.4075pt>
+<Immagini/frame-elements.png, id=750, 265.49188pt x 644.4075pt>
 File: Immagini/frame-elements.png Graphic file (type png)
 <use Immagini/frame-elements.png>
 Package pdftex.def Info: Immagini/frame-elements.png  used on input line 25.
 (pdftex.def)             Requested size: 43.02039pt x 104.41507pt.
-<Immagini/triangular elements.png, id=690, 182.18062pt x 634.37pt>
+<Immagini/triangular elements.png, id=751, 182.18062pt x 634.37pt>
 File: Immagini/triangular elements.png Graphic file (type png)
 <use Immagini/triangular elements.png>
 Package pdftex.def Info: Immagini/triangular elements.png  used on input line 25.
 (pdftex.def)             Requested size: 30.73085pt x 106.99933pt.
-<Immagini/brick-elements.png, id=691, 340.77313pt x 628.3475pt>
+<Immagini/brick-elements.png, id=752, 340.77313pt x 628.3475pt>
 File: Immagini/brick-elements.png Graphic file (type png)
 <use Immagini/brick-elements.png>
 Package pdftex.def Info: Immagini/brick-elements.png  used on input line 25.
@@ -1103,38 +1187,38 @@ Package pdftex.def Info: Immagini/brick-elements.png  used on input line 25.
 ) [26
 
 ]
-<Immagini/mesh-application-1.jpeg, id=778, 1003.75pt x 608.2725pt>
+<Immagini/mesh-application-1.jpeg, id=842, 1003.75pt x 608.2725pt>
 File: Immagini/mesh-application-1.jpeg Graphic file (type jpg)
 <use Immagini/mesh-application-1.jpeg>
-Package pdftex.def Info: Immagini/mesh-application-1.jpeg  used on input line 367.
+Package pdftex.def Info: Immagini/mesh-application-1.jpeg  used on input line 244.
 (pdftex.def)             Requested size: 153.64493pt x 93.10251pt.
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 367.
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 244.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2022/07/10 v2.5l Standard LaTeX font definitions
 )
-Underfull \hbox (badness 10000) in paragraph at lines 367--367
+Underfull \hbox (badness 10000) in paragraph at lines 244--244
 []\T1/cmtt/m/n/5 Image from COMSOL Multiplysics Cyclopedia, ``Finite
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 367--367
+Underfull \hbox (badness 10000) in paragraph at lines 244--244
 []\T1/cmtt/m/n/5 Image from COMSOL Multiplysics Blog, ``Meshing
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 367--367
+Underfull \hbox (badness 10000) in paragraph at lines 244--244
 \T1/cmtt/m/n/5 Your Geometry: When to Use the Various Element
  []
 
-<Immagini/mesh-application-2.png, id=779, 1432.60219pt x 756.57657pt>
+<Immagini/mesh-application-2.png, id=843, 1432.60219pt x 756.57657pt>
 File: Immagini/mesh-application-2.png Graphic file (type png)
 <use Immagini/mesh-application-2.png>
-Package pdftex.def Info: Immagini/mesh-application-2.png  used on input line 367.
+Package pdftex.def Info: Immagini/mesh-application-2.png  used on input line 244.
 (pdftex.def)             Requested size: 153.64493pt x 81.13414pt.
 [27
 
  <./Immagini/mesh-application-1.jpeg> <./Immagini/mesh-application-2.png>] (./Figure/choise-of-the-base.tex
-<Immagini/local-basis-functions.png, id=808, 586.8324pt x 442.2924pt>
+<Immagini/local-basis-functions.png, id=873, 586.8324pt x 442.2924pt>
 File: Immagini/local-basis-functions.png Graphic file (type png)
 <use Immagini/local-basis-functions.png>
 Package pdftex.def Info: Immagini/local-basis-functions.png  used on input line 29.
@@ -1163,14 +1247,45 @@ Package pdftex.def Info: Immagini/local-basis-functions.png  used on input line 
 ) [31
 
 ]
-<Immagini/fenics-logo.png, id=915, 948.1824pt x 331.2375pt>
+<Immagini/fenics-logo.png, id=985, 948.1824pt x 331.2375pt>
 File: Immagini/fenics-logo.png Graphic file (type png)
 <use Immagini/fenics-logo.png>
-Package pdftex.def Info: Immagini/fenics-logo.png  used on input line 380.
-(pdftex.def)             Requested size: 184.3758pt x 64.40657pt.
+Package pdftex.def Info: Immagini/fenics-logo.png  used on input line 292.
+(pdftex.def)             Requested size: 175.15747pt x 61.187pt.
  [32
 
  <./Immagini/fenics-logo.png>]
+File: Immagini/fenics-logo.png Graphic file (type png)
+<use Immagini/fenics-logo.png>
+Package pdftex.def Info: Immagini/fenics-logo.png  used on input line 292.
+(pdftex.def)             Requested size: 175.15747pt x 61.187pt.
+ [33
+
+]
+File: Immagini/fenics-logo.png Graphic file (type png)
+<use Immagini/fenics-logo.png>
+Package pdftex.def Info: Immagini/fenics-logo.png  used on input line 292.
+(pdftex.def)             Requested size: 175.15747pt x 61.187pt.
+ [34
+
+] [35
+
+] [36
+
+])
+\openout2 = `Sezioni/classical-wave-equation.aux'.
+
+ (./Sezioni/classical-wave-equation.tex
+Overfull \hbox (7.21144pt too wide) in paragraph at lines 25--25
+ [] 
+ []
+
+[37
+
+
+
+
+])
 \tf@nav=\write5
 \openout5 = `01beamer.nav'.
 
@@ -1180,20 +1295,20 @@ Package pdftex.def Info: Immagini/fenics-logo.png  used on input line 380.
 \tf@snm=\write7
 \openout7 = `01beamer.snm'.
 
- (./01beamer.aux) ) 
+ (./01beamer.aux (./Sezioni/finite-element-method.aux) (./Sezioni/classical-wave-equation.aux)) ) 
 Here is how much of TeX's memory you used:
- 36575 strings out of 476025
- 779264 string characters out of 5790017
- 1871388 words of memory out of 5000000
- 56222 multiletter control sequences out of 15000+600000
- 534927 words of font info for 86 fonts, out of 8000000 for 9000
+ 41063 strings out of 476025
+ 892508 string characters out of 5790017
+ 1872388 words of memory out of 5000000
+ 60601 multiletter control sequences out of 15000+600000
+ 536945 words of font info for 91 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,19n,122p,490b,908s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmbsy7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib5.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx0700.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx0800.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx0900.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm0500.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfti0800.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sftt0800.pfb>
-Output written on 01beamer.pdf (32 pages, 3523919 bytes).
+ 128i,19n,122p,539b,1068s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmbsy7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex9.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib5.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx0700.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx0800.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx0900.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm0500.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfti0800.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sftt0800.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sftt0900.pfb>
+Output written on 01beamer.pdf (37 pages, 3588007 bytes).
 PDF statistics:
- 1111 PDF objects out of 1200 (max. 8388607)
- 954 compressed objects within 10 object streams
- 66 named destinations out of 1000 (max. 500000)
- 188 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1336 PDF objects out of 1440 (max. 8388607)
+ 1143 compressed objects within 12 object streams
+ 77 named destinations out of 1000 (max. 500000)
+ 340 words of extra memory for PDF output out of 10000 (max. 10000000)
 

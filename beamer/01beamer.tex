@@ -22,10 +22,23 @@
 \usepackage[mode=math]{siunitx}
 \usepackage[absolute,overlay]{textpos}
 \usepackage{pdfcolparallel}
-\usepackage{tcolorbox}
+\usepackage[most]{tcolorbox}
 \usepackage{physics}
 \usetikzlibrary{decorations.pathreplacing}
 \tcbuselibrary{fitting}
+
+\tcbset{
+  pythoncode/.style={
+    listing only,
+    listing options={language=Python, basicstyle=\ttfamily\small},
+    enhanced,
+    colback=gray!10,
+    colframe=BrickRed,
+    arc=2mm,
+    boxrule=0.5pt,
+    left=4pt,right=4pt,top=4pt,bottom=4pt,
+  }
+}
 
 \renewcommand{\arraystretch}{2}
 
@@ -121,262 +134,8 @@
 \titlepage
 \end{frame}
 
-\section{Finite Element Method}
+\include{Sezioni/finite-element-method}
 
-\begin{frame}
-   \frametitle{Numerical methods for differential equations}
-
-   \input{Figure/numerical-methods-scheme.tex}
-\end{frame}
-
-\begin{frame}{Introduction to the problem}
-   Solving a \textbf{\textcolor{BrickRed}{PDE}} means to find a function $u$ such that
-
-   \begin{equation*}
-      \mathcal{L}u=f
-   \end{equation*}
-
-   where $\mathcal{L}$ is a \underline{differential operator} and $f$ is a \underline{source term}.
-
-   \vspace{0.3cm}
-
-   The equation holds in a domain $\Omega$ and is completed by prescribing \textbf{boundary conditions} on $\partial\Omega$.
-
-   \vfill
-
-   \pause
-
-   \input{Figure/second-order-operator.tex}
-\end{frame}
-
-\begin{frame}{Weak formulation}
-   Galerkin methods rely on a \textbf{\textcolor{BrickRed}{weak formulation}}
-
-   \vspace{0.5cm}
-
-   \pause
-
-   \begin{itemize}
-      \item \underline{Multiply} by a \textcolor{BrickRed}{test function} $v$ and \underline{integrate} over the entire domain
-      
-      \begin{equation*}
-         -\int_\Omega(\Delta u)vd\Omega=\int_\Omega fvd\Omega
-      \end{equation*}
-
-      \pause
-
-      \item \underline{Integrate by parts} the left hand side
-      
-      \begin{equation*}
-         -\int_\Omega(\Delta u)vd\Omega=\int_\Omega\nabla u\cdot\nabla vd\Omega-\int_{\partial\Omega}\frac{\partial u}{\partial n}vds
-      \end{equation*}
-
-      \pause
-
-      \item \underline{Substitute} and get the new expression
-      
-      \begin{equation*}
-         \int_\Omega\nabla u\cdot\nabla vd\Omega=\int_\Omega fvd\Omega+\int_{\partial\Omega}\frac{\partial u}{\partial n}vds
-      \end{equation*}
-   \end{itemize}
-\end{frame}
-
-\begin{frame}{About the test function}
-   \begin{center}
-      \begin{framed}
-         The test function $v$ is introduced to check whether the PDE is satisfied \textit{\underline{on average}} throughout the domain.
-      \end{framed}
-   \end{center}
-
-   \pause
-
-   The problem becomes to find $u$ such that
-
-   \begin{equation*}
-      a(u,v)=F(v) \qquad \forall v\in V
-   \end{equation*}
-
-   where
-
-   \begin{alignat*}{2}
-      a(u,v)&=\int_\Omega\nabla u\cdot\nabla vd\Omega \qquad &&\text{is a \underline{bilinear form}}\\
-      F(v)&=\int_\Omega fvd\Omega+\int_{\partial\Omega}\frac{\partial u}{\partial n}vds \qquad &&\text{is a \underline{linear functional}}
-   \end{alignat*}
-\end{frame}
-
-\begin{frame}{Benefits of the weak formulation}
-   \input{Tabelle/benefits-of-weak-formulation.tex}
-
-   \vspace{-0.5cm}
-
-   \uncover<2->{\begin{center}
-      \begin{framed}
-         In short: weak formulation requires \textbf{\textcolor{BrickRed}{less regularity}}
-      \end{framed}
-   \end{center}}
-
-   \vspace{0.6cm}
-
-   $^{\boldsymbol{\textcolor{BrickRed}{\ast}}}$\scriptsize{$H^1(\Omega)$ is a \textbf{Sobolev space} of functions with square-integrable first derivatives:}
-
-   \begin{equation*}
-      w\in H^1(\Omega)=\left\{w\in L^2(\Omega)\mid\nabla w\in L^2(\Omega)^d\right\}
-   \end{equation*}
-
-   \normalsize
-\end{frame}
-
-\begin{frame}{On boundary conditions}
-   Another difference lies in the boundary condition prescription.
-
-   \vspace{0.35cm}
-
-   \pause
-
-   \input{Figure/boundary-conditions-strong-formulation.tex}
-
-   \vspace{-0.5cm}
-
-   \pause
-
-   \input{Figure/boundary-conditions-weak-formulation.tex}
-\end{frame}
-
-\begin{frame}{Shape functions}
-   Galerkin methods allow to find an \underline{approximate solution}
-   
-   \begin{equation*}
-      u_h\in V_h\subset H^1(\Omega) \qquad \text{where } V_h \ \text{is a \textbf{finite-dimensional} space} 
-   \end{equation*}
-
-   In this framework, the goal is to find $u_h$ such that
-
-   \begin{equation*}
-      \boxed{a\left(u_h,v_h\right)=F\left(v_h\right) \qquad \forall v_h\in V_h}
-   \end{equation*}
-
-   \vfill
-
-   \pause
-
-   A \textbf{basis of function} $\left\{\phi_i\right\}$ is chosen to express $u_h$ and to use it as \underline{test}:
-
-   \begin{equation*}
-      u_h=\sum_{j=1}^Nu_j\phi_j \ \Longrightarrow \ a\left(\sum_{j=1}^Nu_j\phi_j,\phi_i\right)=F\left(\phi_i\right) \qquad \forall i=1,\dots,N
-   \end{equation*}
-
-   \vfill
-
-   \pause
-
-   \begin{center}
-      Functions $\phi_i$ model the solution $\longrightarrow$ \textbf{\textcolor{BrickRed}{shape functions}}
-   \end{center}
-\end{frame}
-
-\begin{frame}{Final expression}
-   By linearity of $a(\cdot,\cdot)$, the problem reduces to a \textbf{finite linear system}:
-
-   \begin{equation*}
-      \sum_{j=1}^Nu_ja\left(\phi_j,\phi_i\right)=F\left(\phi_i\right) \qquad \forall i=1,\dots,N
-   \end{equation*}
-
-   \vspace{-0.1cm}
-
-   \begin{equation*}
-      \Big\Downarrow
-   \end{equation*}
-
-   \vspace{-0.1cm}
-
-   \begin{equation*}
-      \fcolorbox{BrickRed}{white}{\text{$A\boldsymbol{u}=\boldsymbol{F}$}}
-   \end{equation*}
-
-   \pause
-
-   where
-
-   \begin{alignat*}{2}
-      A_{i,j}&=a\left(\phi_j,\phi_i\right) &&\text{form the \textbf{\textcolor{BrickRed}{stiffness matrix}}}\\
-      \boldsymbol{u}&=\left(u_1,\dots,u_N\right)^T &&\text{is the \textbf{\textcolor{BrickRed}{vector of unknowns}}}\\
-      \boldsymbol{F}&=\left(F\left(\phi_1\right),\dots,F\left(\phi_N\right)\right)^T \qquad &&\text{is the \textbf{\textcolor{BrickRed}{load vector}}} 
-   \end{alignat*}
-\end{frame}
-
-\begin{frame}{Mesh discretization}
-   \begin{center}
-      \begin{framed}
-         \textbf{FEM} approach consists in the subdivision of the domain in a so-called \textbf{\textcolor{BrickRed}{mesh}}
-      \end{framed}
-   \end{center}
-
-   \pause
-
-   This choice brings several advantages:
-
-   \begin{itemize}
-      \item Good approximation of \textbf{complex geometries}
-      \item Better capture of \textbf{local effects}
-      \item Possibility of \textbf{adaptive refinement}
-      \item Natural construction of a \textbf{global solution}
-   \end{itemize}
-
-   \visible<2>{\begin{figure}[H]
-      \centering
-      \includegraphics[width=0.72\textwidth]{Immagini/mesh-example.jpeg}
-   \end{figure}}
-\end{frame}
-
-\begin{frame}{Elements}
-   \input{Figure/elements.tex}
-\end{frame}
-
-\begin{frame}{Application examples}
-   \begin{minipage}{0.5\textwidth}
-      \begin{figure}[H]
-         \raggedright
-         \includegraphics[width=\textwidth]{Immagini/mesh-application-1.jpeg}
-      \end{figure}
-   \end{minipage}
-   \hfill
-   \begin{minipage}{0.45\textwidth}
-      \footnotesize{\textit{Manual mesh refinement of a wrench using different element types}}
-
-      \textcolor{white}{some}
-
-      \tiny{\texttt{Image from COMSOL Multiplysics Cyclopedia, ``Finite Element Mesh Refinement'', 21st of February 2017}}
-   \end{minipage}
-
-   \vfill
-
-   \begin{minipage}{0.425\textwidth}
-      \footnotesize{\textit{Mesh of a wheel rim composed of tetrahedrons in green, bricks in blue and prisms in pink}}
-
-      \textcolor{white}{some}
-
-      \tiny{\texttt{Image from COMSOL Multiplysics Blog, ``Meshing Your Geometry: When to Use the Various Element Types'', Walter Frei, 4th of November 2013}}
-   \end{minipage}
-   \hfill
-   \begin{minipage}{0.5\textwidth}
-      \begin{figure}[H]
-         \raggedleft
-         \includegraphics[width=\textwidth]{Immagini/mesh-application-2.png}
-      \end{figure}
-   \end{minipage}
-\end{frame}
-
-\begin{frame}{Choise of the base}
-   \input{Figure/choise-of-the-base.tex}
-\end{frame}
-
-\begin{frame}{FEniCS library}
-   \small{A leading software platform for finite element computations is \textbf{\textcolor{BrickRed}{FEniCS}}.}
-
-   \begin{figure}[H]
-      \centering
-      \includegraphics[width=0.6\textwidth]{Immagini/fenics-logo.png}
-   \end{figure}
-\end{frame}
+\include{Sezioni/classical-wave-equation}
 
 \end{document}

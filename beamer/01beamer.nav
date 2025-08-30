@@ -27,10 +27,19 @@
 \headcommand {\beamer@framepages {27}{27}}
 \headcommand {\slideentry {1}{0}{12}{28/31}{}{0}}
 \headcommand {\beamer@framepages {28}{31}}
-\headcommand {\slideentry {1}{0}{13}{32/32}{}{0}}
-\headcommand {\beamer@framepages {32}{32}}
-\headcommand {\beamer@partpages {1}{32}}
-\headcommand {\beamer@subsectionpages {2}{32}}
-\headcommand {\beamer@sectionpages {2}{32}}
-\headcommand {\beamer@documentpages {32}}
-\headcommand {\gdef \inserttotalframenumber {14}}
+\headcommand {\slideentry {1}{0}{13}{32/34}{}{0}}
+\headcommand {\beamer@framepages {32}{34}}
+\headcommand {\slideentry {1}{0}{14}{35/35}{}{0}}
+\headcommand {\beamer@framepages {35}{35}}
+\headcommand {\slideentry {1}{0}{15}{36/36}{}{0}}
+\headcommand {\beamer@framepages {36}{36}}
+\headcommand {\beamer@sectionpages {2}{36}}
+\headcommand {\beamer@subsectionpages {2}{36}}
+\headcommand {\sectionentry {2}{Classical Wave Equation}{37}{Classical Wave Equation}{0}}
+\headcommand {\slideentry {2}{0}{1}{37/37}{}{0}}
+\headcommand {\beamer@framepages {37}{37}}
+\headcommand {\beamer@partpages {1}{37}}
+\headcommand {\beamer@subsectionpages {37}{37}}
+\headcommand {\beamer@sectionpages {37}{37}}
+\headcommand {\beamer@documentpages {37}}
+\headcommand {\gdef \inserttotalframenumber {17}}
