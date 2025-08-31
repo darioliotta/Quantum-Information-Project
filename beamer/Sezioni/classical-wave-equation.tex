@@ -13,3 +13,124 @@
 
     \input{Figure/classical-wave-equation-separable.tex}
 \end{frame}
+
+\begin{frame}{From PDE to ODEs}
+    To do so, a \textbf{separable base} must be chosen:
+
+    \begin{equation*}
+        u_h(x,t)=\sum_{j=1}^Nu_j(t)\phi_j(x)
+    \end{equation*}
+
+    \vfill
+
+    \pause
+
+    Managing the boundary term separately, the weak formulation goes as
+
+    \small
+
+    \begin{equation*}
+        \int_0^L\frac{\partial^2\textcolor{RoyalBlue}{u}}{\partial t^2}\textcolor{ForestGreen}{v}dx+c^2\int_0^L\frac{\partial\textcolor{RoyalBlue}{u}}{\partial x}\frac{\partial\textcolor{ForestGreen}{v}}{\partial x}dx=0 \qquad \forall v\in H^1([0,L])
+    \end{equation*}
+
+    \pause
+
+    \begin{equation*}
+        \Big\Downarrow
+    \end{equation*}
+
+    \vspace{-0.35cm}
+
+    \begin{equation*}
+        \textcolor{RoyalBlue}{\sum_{j=1}^N}\frac{d^2\textcolor{RoyalBlue}{u_j}}{dt^2}\int_0^L\textcolor{RoyalBlue}{\phi_j}\textcolor{ForestGreen}{\phi_i}dx+c^2\textcolor{RoyalBlue}{\sum_{j=1}^Nu_j}\int_0^L\frac{\partial\textcolor{RoyalBlue}{\phi_j}}{\partial x}\frac{\partial\textcolor{ForestGreen}{\phi_i}}{\partial x}dx=0 \qquad \forall i=1,\dots,N
+    \end{equation*}
+
+    \normalsize
+\end{frame}
+
+\begin{frame}{Matrix formulation}
+    Let's define
+
+    \begin{alignat*}{3}
+        M&:M_{i,j}&&=\int_0^L\phi_j\phi_idx \ &&\longleftarrow \ \text{\textbf{\textcolor{BrickRed}{Mass matrix}}}\\
+        A&:A_{i,j}&&=\int_0^L\frac{\partial\phi_j}{\partial x}\frac{\partial\phi_i}{\partial x}dx \ &&\longleftarrow \ \text{\textbf{\textcolor{BrickRed}{Stiffness matrix}}}
+    \end{alignat*}
+
+    \pause
+
+    \begin{equation*}
+        \Big\Downarrow
+    \end{equation*}
+
+    \begin{equation*}
+        \fcolorbox{BrickRed}{white}{\text{$\displaystyle M\frac{d^2\boldsymbol{u}}{dt^2}+c^2A\boldsymbol{u}=0$}}
+    \end{equation*}
+\end{frame}
+
+\begin{frame}{Time discretization}
+    Let's apply \textbf{\textcolor{BrickRed}{implicit} central difference scheme}:
+
+    \begin{equation*}
+        M\frac{\boldsymbol{u}^{(n+1)}-2\boldsymbol{u}^{(n)}+\boldsymbol{u}^{(n-1)}}{\Delta t^2}+c^2A\boldsymbol{u}^{\textcolor{BrickRed}{(n+1)}}=0
+    \end{equation*}
+
+    \pause
+
+    \begin{equation*}
+        \Big\Downarrow
+    \end{equation*}
+
+    \begin{equation*}
+        \fcolorbox{BrickRed}{white}{\text{$\displaystyle\left(\frac{1}{\Delta t^2}M+c^2A\right)\boldsymbol{u}^{(n+1)}=\frac{2}{\Delta t^2}M\boldsymbol{u}^{(n)}-\frac{1}{\Delta t^2}M\boldsymbol{u}^{(n-1)}$}}
+    \end{equation*}
+\end{frame}
+
+\begin{frame}{Analytical solutions}
+    Solutions are known since 1747 due to d'Alembert himself.
+
+    \vfill
+
+    \alt<1>{\begin{itemize}
+        \item \textbf{Dirichlet} boundary conditions: $\displaystyle u(0,t)=u(L,t)=0$
+        
+        \vspace{0.1cm}
+        
+        \begin{equation*}
+            \fcolorbox{BrickRed}{white}{\text{$\displaystyle u(x,t)=\sum_{n=1}^\infty A_n\cos\left(\frac{n\pi}{L}ct\right)\sin\left(\frac{n\pi}{L}x\right)$}}
+        \end{equation*}
+
+        with $A_n=\frac{2}{L}\int_0^Lf(x)\sin\left(\frac{n\pi}{L}x\right)dx$.
+
+        \vfill
+
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=0.8\textwidth]{Immagini/plot-dirichlet-analytical.png}
+        \end{figure}
+    \end{itemize}}{}
+
+    \alt<2>{\begin{itemize}
+        \item \textbf{Neumann} boundary conditions: \small{$\displaystyle\frac{\partial u}{\partial x}\bigg|_{x=0}=\frac{\partial u}{\partial x}\bigg|_{x=L}=0$}
+        
+        \vspace{0.1cm}
+
+        \normalsize
+        
+        \begin{equation*}
+            \fcolorbox{BrickRed}{white}{\text{$\displaystyle u(x,t)=A_0+\sum_{n=1}^\infty A_n\cos\left(\frac{n\pi}{L}ct\right)\cos\left(\frac{n\pi}{L}x\right)$}}
+        \end{equation*}
+
+        with $A_0=\frac{1}{L}\int_0^Lf(x)dx$, $A_n=\frac{2}{L}\int_0^Lf(x)\cos\left(\frac{n\pi}{L}x\right)dx$.
+
+        \vfill
+
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=0.8\textwidth]{Immagini/plot-neumann-analytical.png}
+        \end{figure}
+    \end{itemize}}{}
+\end{frame}
+
+\begin{frame}{Approximate solutions}
+
+\end{frame}
