@@ -184,11 +184,192 @@
 \end{frame}
 
 \begin{frame}{Energy loss}
+    \small
+
     A strong indicator of numerical correctness is \textbf{\underline{energy conservation}}.
+
+    \pause
 
     \begin{equation*}
         \text{\textbf{\textcolor{BrickRed}{Energy}}:} \ E=\underbrace{\frac{T}{2c^2}\int_0^L\left(\frac{\partial u}{\partial t}\right)^2dx}_{\text{Kinetic}}+\underbrace{\frac{T}{2}\int_0^L\left(\frac{\partial u}{\partial x}\right)^2dx}_{\text{Potential}}
     \end{equation*}
 
-    $T$ is the \textit{tension} that can be arbitrarly set to $1$.
+    $T$ is the \textit{tension}, which can be arbitrarily set to $1$.
+
+    \vfill
+
+    \scriptsize
+
+    \visible<3>{\begin{minipage}{0.32\textwidth}
+        \begin{equation*}
+            \text{CFL}=0.05
+        \end{equation*}
+
+        \vspace{-0.2cm}
+
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=\textwidth]{Immagini/plot-energy-decay-cfl-0.05.png}
+        \end{figure}
+    \end{minipage}
+    \hfill
+    \begin{minipage}{0.32\textwidth}
+        \begin{equation*}
+            \text{CFL}=0.25
+        \end{equation*}
+
+        \vspace{-0.2cm}
+
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=\textwidth]{Immagini/plot-energy-decay-cfl-0.25.png}
+        \end{figure}
+    \end{minipage}
+    \hfill
+    \begin{minipage}{0.32\textwidth}
+        \begin{equation*}
+            \text{CFL}=0.50
+        \end{equation*}
+
+        \vspace{-0.2cm}
+
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=\textwidth]{Immagini/plot-energy-decay-cfl-0.50.png}
+        \end{figure}
+    \end{minipage}}
+
+    \vfill
+
+    \footnotesize
+
+    \pause
+
+    Numerical energy decay is \textit{independent} of the CFL number, being entirely caused by the \textbf{implicit scheme} itself.
+
+    \normalsize
+\end{frame}
+
+\begin{frame}{What if $c=c(x)$?}
+    If $c$ is not constant, its square must be interpolated as the wave function:
+
+    \begin{equation*}
+        c(^2x) \ \longrightarrow \ c_h^2(x)=\sum_{k=1}^Nc_k^{(2)}\psi_k(x)
+    \end{equation*}
+
+    \pause
+
+    Velocity must be included in the stiffness matrix $A$:
+
+    \begin{equation*}
+        A_{i,j}=\int_0^L\left(\sum_{k=1}^Nc_k^{(2)}\psi_k(x)\right)\frac{\partial\phi_j}{\partial x}\frac{\partial\phi_i}{\partial x}dx
+    \end{equation*}
+
+    \pause
+
+    \begin{equation*}
+        \Big\Downarrow
+    \end{equation*}
+
+    \begin{equation*}
+        \fcolorbox{BrickRed}{white}{\text{$\displaystyle M\frac{d^2\boldsymbol{u}}{dt^2}+A\boldsymbol{u}=0$}}
+    \end{equation*}
+\end{frame}
+
+\begin{frame}{Piecewise constant velocity}
+    \small
+
+    One simple example is the \textbf{piacewise constant function}:
+
+    \begin{equation*}
+        c(x)=
+        \begin{cases}
+            c_1 \ \ \  &x\leqslant x_0\\
+            c_2 \ \ \  &x>x_0
+        \end{cases}
+    \end{equation*}
+
+    \vfill
+
+    \alt<1>{\begin{center}
+        Placing initial pulse \underline{on the left} with \textcolor{RoyalBlue}{$\boldsymbol{c_1=1}$}, \textcolor{RoyalBlue}{$\boldsymbol{c_2=3}$}:
+    \end{center}
+
+    \vspace{0.2cm}
+
+    \begin{minipage}{0.49\textwidth}
+        \begin{center}
+            \textcolor{RoyalBlue}{\textbf{Dirichlet}}
+        \end{center}
+
+        \vspace{-0.3cm}
+
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=\textwidth]{Immagini/plot-dirichlet-piecewise-c1<c2.png}
+        \end{figure}
+    \end{minipage}
+    \hfill
+    \begin{minipage}{0.49\textwidth}
+        \begin{center}
+            \textcolor{RoyalBlue}{\textbf{Neumann}}
+        \end{center}
+
+        \vspace{-0.3cm}
+
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=\textwidth]{Immagini/plot-neumann-piecewise-c1<c2.png}
+        \end{figure}
+    \end{minipage}}{}
+
+    \alt<2>{\begin{center}
+        Placing initial pulse \underline{on the left} with \textcolor{ForestGreen}{$\boldsymbol{c_1=3}$}, \textcolor{ForestGreen}{$\boldsymbol{c_2=1}$}:
+    \end{center}
+
+    \vspace{0.2cm}
+
+    \begin{minipage}{0.49\textwidth}
+        \begin{center}
+            \textcolor{ForestGreen}{\textbf{Dirichlet}}
+        \end{center}
+
+        \vspace{-0.3cm}
+
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=\textwidth]{Immagini/plot-dirichlet-piecewise-c1>c2.png}
+        \end{figure}
+    \end{minipage}
+    \hfill
+    \begin{minipage}{0.49\textwidth}
+        \begin{center}
+            \textcolor{ForestGreen}{\textbf{Neumann}}
+        \end{center}
+
+        \vspace{-0.3cm}
+
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=\textwidth]{Immagini/plot-neumann-piecewise-c1>c2.png}
+        \end{figure}
+    \end{minipage}}{}
+
+    \normalsize
+\end{frame}
+
+\begin{frame}{Fresnel coefficients}
+    \small
+
+    In this case, the analytical reference values are the \textcolor{BrickRed}{\textbf{Fresnel coefficients}}.
+
+    \normalsize
+
+    \begin{equation*}
+        T=\frac{2c_1}{c_1+c_2} \hspace{1cm} R=\frac{c_1-c_2}{c_1+c_2}
+    \end{equation*}
+\end{frame}
+
+\begin{frame}{Approach to the Schrödinger equation}
+    Moving in the quantum realm, 
 \end{frame}
