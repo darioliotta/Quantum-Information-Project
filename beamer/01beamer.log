@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.11)  3 SEP 2025 15:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.11)  4 SEP 2025 01:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1420,16 +1420,66 @@ Package pdftex.def Info: Immagini/plot-neumann-piecewise-c1>c2.png  used on inpu
 <Immagini/plot-difference-coefficients-c1<c2.png, id=1734, 715.473pt x 393.8715pt>
 File: Immagini/plot-difference-coefficients-c1<c2.png Graphic file (type png)
 <use Immagini/plot-difference-coefficients-c1<c2.png>
-Package pdftex.def Info: Immagini/plot-difference-coefficients-c1<c2.png  used on input line 415.
+Package pdftex.def Info: Immagini/plot-difference-coefficients-c1<c2.png  used on input line 417.
 (pdftex.def)             Requested size: 150.57372pt x 82.88974pt.
 <Immagini/plot-difference-coefficients-c1>c2.png, id=1735, 715.473pt x 396.7623pt>
 File: Immagini/plot-difference-coefficients-c1>c2.png Graphic file (type png)
 <use Immagini/plot-difference-coefficients-c1>c2.png>
-Package pdftex.def Info: Immagini/plot-difference-coefficients-c1>c2.png  used on input line 415.
+Package pdftex.def Info: Immagini/plot-difference-coefficients-c1>c2.png  used on input line 417.
 (pdftex.def)             Requested size: 150.57372pt x 83.49811pt.
  [58
 
- <./Immagini/plot-difference-coefficients-c1<c2.png> <./Immagini/plot-difference-coefficients-c1>c2.png>] [59
+ <./Immagini/plot-difference-coefficients-c1<c2.png> <./Immagini/plot-difference-coefficients-c1>c2.png>]
+File: Immagini/plot-difference-coefficients-c1<c2.png Graphic file (type png)
+<use Immagini/plot-difference-coefficients-c1<c2.png>
+Package pdftex.def Info: Immagini/plot-difference-coefficients-c1<c2.png  used on input line 417.
+(pdftex.def)             Requested size: 150.57372pt x 82.88974pt.
+File: Immagini/plot-difference-coefficients-c1>c2.png Graphic file (type png)
+<use Immagini/plot-difference-coefficients-c1>c2.png>
+Package pdftex.def Info: Immagini/plot-difference-coefficients-c1>c2.png  used on input line 417.
+(pdftex.def)             Requested size: 150.57372pt x 83.49811pt.
+ [59
+
+]
+<Immagini/plot-energy-c1=1-c2=3.png, id=1792, 619.3539pt x 393.8715pt>
+File: Immagini/plot-energy-c1=1-c2=3.png Graphic file (type png)
+<use Immagini/plot-energy-c1=1-c2=3.png>
+Package pdftex.def Info: Immagini/plot-energy-c1=1-c2=3.png  used on input line 489.
+(pdftex.def)             Requested size: 150.57372pt x 95.75111pt.
+<Immagini/plot-energy-c1=3-c2=1.png, id=1793, 612.8496pt x 393.8715pt>
+File: Immagini/plot-energy-c1=3-c2=1.png Graphic file (type png)
+<use Immagini/plot-energy-c1=3-c2=1.png>
+Package pdftex.def Info: Immagini/plot-energy-c1=3-c2=1.png  used on input line 489.
+(pdftex.def)             Requested size: 150.57372pt x 96.7668pt.
+ [60
+
+ <./Immagini/plot-energy-c1=1-c2=3.png> <./Immagini/plot-energy-c1=3-c2=1.png>]
+<Immagini/plot-energy-c1=1-c2=6.png, id=1825, 619.3539pt x 393.8715pt>
+File: Immagini/plot-energy-c1=1-c2=6.png Graphic file (type png)
+<use Immagini/plot-energy-c1=1-c2=6.png>
+Package pdftex.def Info: Immagini/plot-energy-c1=1-c2=6.png  used on input line 489.
+(pdftex.def)             Requested size: 150.57372pt x 95.75111pt.
+<Immagini/plot-energy-c1=6-c2=1.png, id=1826, 603.4545pt x 393.8715pt>
+File: Immagini/plot-energy-c1=6-c2=1.png Graphic file (type png)
+<use Immagini/plot-energy-c1=6-c2=1.png>
+Package pdftex.def Info: Immagini/plot-energy-c1=6-c2=1.png  used on input line 489.
+(pdftex.def)             Requested size: 150.57372pt x 98.2753pt.
+ [61
+
+ <./Immagini/plot-energy-c1=1-c2=6.png> <./Immagini/plot-energy-c1=6-c2=1.png>]
+<Immagini/plot-energy-c1=1-c2=9.png, id=1857, 626.5809pt x 393.8715pt>
+File: Immagini/plot-energy-c1=1-c2=9.png Graphic file (type png)
+<use Immagini/plot-energy-c1=1-c2=9.png>
+Package pdftex.def Info: Immagini/plot-energy-c1=1-c2=9.png  used on input line 489.
+(pdftex.def)             Requested size: 150.57372pt x 94.65128pt.
+<Immagini/plot-energy-c1=9-c2=1.png, id=1858, 609.9588pt x 393.8715pt>
+File: Immagini/plot-energy-c1=9-c2=1.png Graphic file (type png)
+<use Immagini/plot-energy-c1=9-c2=1.png>
+Package pdftex.def Info: Immagini/plot-energy-c1=9-c2=1.png  used on input line 489.
+(pdftex.def)             Requested size: 150.57372pt x 97.22957pt.
+ [62
+
+ <./Immagini/plot-energy-c1=1-c2=9.png> <./Immagini/plot-energy-c1=9-c2=1.png>] [63
 
 ])
 \tf@nav=\write5
@@ -1443,18 +1493,18 @@ Package pdftex.def Info: Immagini/plot-difference-coefficients-c1>c2.png  used o
 
  (./01beamer.aux (./Sezioni/finite-element-method.aux) (./Sezioni/classical-wave-equation.aux)) ) 
 Here is how much of TeX's memory you used:
- 41250 strings out of 476025
- 897686 string characters out of 5790017
+ 41302 strings out of 476025
+ 899338 string characters out of 5790017
  1872388 words of memory out of 5000000
- 60716 multiletter control sequences out of 15000+600000
+ 60754 multiletter control sequences out of 15000+600000
  541803 words of font info for 105 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,19n,122p,539b,1068s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmbsy7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex9.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib5.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib9.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx0700.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx0800.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx0900.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm0500.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfti0800.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfti0900.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sftt0800.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sftt0900.pfb>
-Output written on 01beamer.pdf (59 pages, 4479392 bytes).
+</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmbsy7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex9.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib5.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib9.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx0700.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx0800.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx0900.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm0500.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfti0800.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfti0900.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sftt0800.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sftt0900.pfb>
+Output written on 01beamer.pdf (63 pages, 4655801 bytes).
 PDF statistics:
- 2024 PDF objects out of 2073 (max. 8388607)
- 1757 compressed objects within 18 object streams
- 121 named destinations out of 1000 (max. 500000)
- 405 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2152 PDF objects out of 2487 (max. 8388607)
+ 1866 compressed objects within 19 object streams
+ 129 named destinations out of 1000 (max. 500000)
+ 435 words of extra memory for PDF output out of 10000 (max. 10000000)
 
