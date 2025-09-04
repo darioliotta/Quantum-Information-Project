@@ -1,0 +1,25 @@
+\section{Time-Dependent Schrödinger Equation}
+
+\begin{frame}{Approach to the Schrödinger equation}
+    Moving in the quantum realm, our next goal is to approximate the solution of a \textbf{1D time-dependent \textcolor{BrickRed}{Schrödinger equation}}:
+
+    \begin{equation*}
+        \fcolorbox{BrickRed}{white}{\text{$\displaystyle i\hbar\frac{\partial\psi}{\partial t}=-\frac{\hbar^2}{2m}\frac{\partial^2\psi}{\partial x^2}+V(x)\psi(x,t)$}}
+    \end{equation*}
+
+    Three main differences from what we saw before:
+
+    \begin{enumerate}
+        \item It appears a \underline{linear term}.
+        
+        \begin{equation*}
+            \text{We must introduce a \textbf{weighted mass matrix}:} \ V:V_{i,j}=\int_\Omega V(x)\phi_j(x)\phi_i(x)dx
+        \end{equation*}
+        
+        \item The PDE is of first order in time.
+        
+        \begin{equation*}
+            \text{Crank-Nicholson method:}
+        \end{equation*}
+    \end{enumerate}
+\end{frame}

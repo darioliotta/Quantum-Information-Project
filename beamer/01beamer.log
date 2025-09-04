@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.11)  4 SEP 2025 01:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.11)  4 SEP 2025 18:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -896,7 +896,7 @@ Package: xparse 2023-02-02 L3 Experimental document command parser
 \pgfdecorationsegmentlength=\dimen353
 )
 \tikz@lib@dec@box=\box115
-) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pathreplacing.code.tex)) (/usr/local/texlive/2023/texmf-dist/tex/latex/beamer/beamerthemeWarsaw.sty (/usr/local/texlive/2023/texmf-dist/tex/latex/beamer/beamerinnerthemerounded.sty) (/usr/local/texlive/2023/texmf-dist/tex/latex/beamer/beamerouterthemeshadow.sty (/usr/local/texlive/2023/texmf-dist/tex/latex/beamer/beamerouterthemesplit.sty)) (/usr/local/texlive/2023/texmf-dist/tex/latex/beamer/beamercolorthemeorchid.sty) (/usr/local/texlive/2023/texmf-dist/tex/latex/beamer/beamercolorthemewhale.sty)) (/usr/local/texlive/2023/texmf-dist/tex/latex/beamer/beamercolorthemestructure.sty) (/usr/local/texlive/2023/texmf-dist/tex/latex/beamer/beamerfontthemeserif.sty) (./01beamer.aux (./Sezioni/finite-element-method.aux) (./Sezioni/classical-wave-equation.aux))
+) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pathreplacing.code.tex)) (/usr/local/texlive/2023/texmf-dist/tex/latex/beamer/beamerthemeWarsaw.sty (/usr/local/texlive/2023/texmf-dist/tex/latex/beamer/beamerinnerthemerounded.sty) (/usr/local/texlive/2023/texmf-dist/tex/latex/beamer/beamerouterthemeshadow.sty (/usr/local/texlive/2023/texmf-dist/tex/latex/beamer/beamerouterthemesplit.sty)) (/usr/local/texlive/2023/texmf-dist/tex/latex/beamer/beamercolorthemeorchid.sty) (/usr/local/texlive/2023/texmf-dist/tex/latex/beamer/beamercolorthemewhale.sty)) (/usr/local/texlive/2023/texmf-dist/tex/latex/beamer/beamercolorthemestructure.sty) (/usr/local/texlive/2023/texmf-dist/tex/latex/beamer/beamerfontthemeserif.sty) (./01beamer.aux (./Sezioni/finite-element-method.aux) (./Sezioni/classical-wave-equation.aux) (./Sezioni/schrodinger-equation.aux))
 \openout1 = `01beamer.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 131.
@@ -1005,7 +1005,7 @@ Package siunitx Warning: Detected the "physics" package:
 Package translations Info: no dictionary file `translations-basic-dictionary-italian.trsl' found. on input line 131.
 \c@lstlisting=\count405
 (./01beamer.nav)
-<logo-unipd.png, id=69, 2309.62875pt x 1043.9pt>
+<logo-unipd.png, id=70, 2309.62875pt x 1043.9pt>
 File: logo-unipd.png Graphic file (type png)
 <use logo-unipd.png>
 Package pdftex.def Info: logo-unipd.png  used on input line 135.
@@ -1018,7 +1018,7 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 135.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<logo-dfa.png, id=70, 321.1197pt x 113.7048pt>
+<logo-dfa.png, id=71, 321.1197pt x 113.7048pt>
 File: logo-dfa.png Graphic file (type png)
 <use logo-dfa.png>
 Package pdftex.def Info: logo-dfa.png  used on input line 135.
@@ -1085,47 +1085,47 @@ Overfull \hbox (1.8411pt too wide) in paragraph at lines 27--28
 ] [21
 
 ]
-<Immagini/mesh-example.jpeg, id=691, 1003.75pt x 464.73625pt>
+<Immagini/mesh-example.jpeg, id=712, 1003.75pt x 464.73625pt>
 File: Immagini/mesh-example.jpeg Graphic file (type jpg)
 <use Immagini/mesh-example.jpeg>
 Package pdftex.def Info: Immagini/mesh-example.jpeg  used on input line 206.
-(pdftex.def)             Requested size: 215.10196pt x 99.59013pt.
+(pdftex.def)             Requested size: 208.95485pt x 96.74654pt.
  [22
 
  <./Immagini/mesh-example.jpeg>]
 File: Immagini/mesh-example.jpeg Graphic file (type jpg)
 <use Immagini/mesh-example.jpeg>
 Package pdftex.def Info: Immagini/mesh-example.jpeg  used on input line 206.
-(pdftex.def)             Requested size: 215.10196pt x 99.59013pt.
+(pdftex.def)             Requested size: 208.95485pt x 96.74654pt.
  [23
 
 ] (./Figure/elements.tex
-<Immagini/element-1D.png, id=747, 612.2875pt x 164.11313pt>
+<Immagini/element-1D.png, id=770, 612.2875pt x 164.11313pt>
 File: Immagini/element-1D.png Graphic file (type png)
 <use Immagini/element-1D.png>
 Package pdftex.def Info: Immagini/element-1D.png  used on input line 15.
 (pdftex.def)             Requested size: 66.9899pt x 17.95483pt.
-<Immagini/elements-2D.png, id=749, 947.54pt x 427.5975pt>
+<Immagini/elements-2D.png, id=772, 947.54pt x 427.5975pt>
 File: Immagini/elements-2D.png Graphic file (type png)
 <use Immagini/elements-2D.png>
 Package pdftex.def Info: Immagini/elements-2D.png  used on input line 16.
 (pdftex.def)             Requested size: 61.45703pt x 27.72955pt.
-<Immagini/elements-3D.png, id=750, 1178.90437pt x 482.80376pt>
+<Immagini/elements-3D.png, id=773, 1178.90437pt x 482.80376pt>
 File: Immagini/elements-3D.png Graphic file (type png)
 <use Immagini/elements-3D.png>
 Package pdftex.def Info: Immagini/elements-3D.png  used on input line 17.
 (pdftex.def)             Requested size: 67.60414pt x 27.68512pt.
-<Immagini/frame-elements.png, id=751, 265.49188pt x 644.4075pt>
+<Immagini/frame-elements.png, id=774, 265.49188pt x 644.4075pt>
 File: Immagini/frame-elements.png Graphic file (type png)
 <use Immagini/frame-elements.png>
 Package pdftex.def Info: Immagini/frame-elements.png  used on input line 25.
 (pdftex.def)             Requested size: 43.02039pt x 104.41507pt.
-<Immagini/triangular elements.png, id=752, 182.18062pt x 634.37pt>
+<Immagini/triangular elements.png, id=775, 182.18062pt x 634.37pt>
 File: Immagini/triangular elements.png Graphic file (type png)
 <use Immagini/triangular elements.png>
 Package pdftex.def Info: Immagini/triangular elements.png  used on input line 25.
 (pdftex.def)             Requested size: 30.73085pt x 106.99933pt.
-<Immagini/brick-elements.png, id=753, 340.77313pt x 628.3475pt>
+<Immagini/brick-elements.png, id=776, 340.77313pt x 628.3475pt>
 File: Immagini/brick-elements.png Graphic file (type png)
 <use Immagini/brick-elements.png>
 Package pdftex.def Info: Immagini/brick-elements.png  used on input line 25.
@@ -1187,7 +1187,7 @@ Package pdftex.def Info: Immagini/brick-elements.png  used on input line 25.
 ) [26
 
 ]
-<Immagini/mesh-application-1.jpeg, id=843, 1003.75pt x 608.2725pt>
+<Immagini/mesh-application-1.jpeg, id=869, 1003.75pt x 608.2725pt>
 File: Immagini/mesh-application-1.jpeg Graphic file (type jpg)
 <use Immagini/mesh-application-1.jpeg>
 Package pdftex.def Info: Immagini/mesh-application-1.jpeg  used on input line 244.
@@ -1210,7 +1210,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 244--244
 \T1/cmtt/m/n/5 Your Geometry: When to Use the Various Element
  []
 
-<Immagini/mesh-application-2.png, id=844, 1432.60219pt x 756.57657pt>
+<Immagini/mesh-application-2.png, id=870, 1432.60219pt x 756.57657pt>
 File: Immagini/mesh-application-2.png Graphic file (type png)
 <use Immagini/mesh-application-2.png>
 Package pdftex.def Info: Immagini/mesh-application-2.png  used on input line 244.
@@ -1218,7 +1218,7 @@ Package pdftex.def Info: Immagini/mesh-application-2.png  used on input line 244
 [27
 
  <./Immagini/mesh-application-1.jpeg> <./Immagini/mesh-application-2.png>] (./Figure/choise-of-the-base.tex
-<Immagini/local-basis-functions.png, id=874, 586.8324pt x 442.2924pt>
+<Immagini/local-basis-functions.png, id=901, 586.8324pt x 442.2924pt>
 File: Immagini/local-basis-functions.png Graphic file (type png)
 <use Immagini/local-basis-functions.png>
 Package pdftex.def Info: Immagini/local-basis-functions.png  used on input line 29.
@@ -1247,7 +1247,7 @@ Package pdftex.def Info: Immagini/local-basis-functions.png  used on input line 
 ) [31
 
 ]
-<Immagini/fenics-logo.png, id=986, 948.1824pt x 331.2375pt>
+<Immagini/fenics-logo.png, id=1017, 948.1824pt x 331.2375pt>
 File: Immagini/fenics-logo.png Graphic file (type png)
 <use Immagini/fenics-logo.png>
 Package pdftex.def Info: Immagini/fenics-logo.png  used on input line 292.
@@ -1297,7 +1297,7 @@ Package pdftex.def Info: Immagini/fenics-logo.png  used on input line 292.
 ] [45
 
 ]
-<Immagini/plot-dirichlet-analytical.png, id=1374, 891.0891pt x 393.8715pt>
+<Immagini/plot-dirichlet-analytical.png, id=1421, 891.0891pt x 393.8715pt>
 File: Immagini/plot-dirichlet-analytical.png Graphic file (type png)
 <use Immagini/plot-dirichlet-analytical.png>
 Package pdftex.def Info: Immagini/plot-dirichlet-analytical.png  used on input line 132.
@@ -1305,7 +1305,7 @@ Package pdftex.def Info: Immagini/plot-dirichlet-analytical.png  used on input l
  [46
 
  <./Immagini/plot-dirichlet-analytical.png>]
-<Immagini/plot-neumann-analytical.png, id=1405, 891.0891pt x 393.8715pt>
+<Immagini/plot-neumann-analytical.png, id=1452, 891.0891pt x 393.8715pt>
 File: Immagini/plot-neumann-analytical.png Graphic file (type png)
 <use Immagini/plot-neumann-analytical.png>
 Package pdftex.def Info: Immagini/plot-neumann-analytical.png  used on input line 132.
@@ -1313,12 +1313,12 @@ Package pdftex.def Info: Immagini/plot-neumann-analytical.png  used on input lin
  [47
 
  <./Immagini/plot-neumann-analytical.png>]
-<Immagini/plot-dirichlet-approximated.png, id=1433, 611.4042pt x 393.8715pt>
+<Immagini/plot-dirichlet-approximated.png, id=1481, 611.4042pt x 393.8715pt>
 File: Immagini/plot-dirichlet-approximated.png Graphic file (type png)
 <use Immagini/plot-dirichlet-approximated.png>
 Package pdftex.def Info: Immagini/plot-dirichlet-approximated.png  used on input line 184.
 (pdftex.def)             Requested size: 150.57372pt x 97.00119pt.
-<Immagini/plot-neumann-approximated.png, id=1434, 611.4042pt x 393.8715pt>
+<Immagini/plot-neumann-approximated.png, id=1482, 611.4042pt x 393.8715pt>
 File: Immagini/plot-neumann-approximated.png Graphic file (type png)
 <use Immagini/plot-neumann-approximated.png>
 Package pdftex.def Info: Immagini/plot-neumann-approximated.png  used on input line 184.
@@ -1337,17 +1337,17 @@ Package pdftex.def Info: Immagini/plot-neumann-approximated.png  used on input l
  [49
 
 ]
-<Immagini/plot-energy-decay-cfl-0.05.png, id=1494, 619.3539pt x 393.8715pt>
+<Immagini/plot-energy-decay-cfl-0.05.png, id=1544, 619.3539pt x 393.8715pt>
 File: Immagini/plot-energy-decay-cfl-0.05.png Graphic file (type png)
 <use Immagini/plot-energy-decay-cfl-0.05.png>
 Package pdftex.def Info: Immagini/plot-energy-decay-cfl-0.05.png  used on input line 251.
 (pdftex.def)             Requested size: 98.335pt x 62.5339pt.
-<Immagini/plot-energy-decay-cfl-0.25.png, id=1495, 619.3539pt x 393.8715pt>
+<Immagini/plot-energy-decay-cfl-0.25.png, id=1545, 619.3539pt x 393.8715pt>
 File: Immagini/plot-energy-decay-cfl-0.25.png Graphic file (type png)
 <use Immagini/plot-energy-decay-cfl-0.25.png>
 Package pdftex.def Info: Immagini/plot-energy-decay-cfl-0.25.png  used on input line 251.
 (pdftex.def)             Requested size: 98.335pt x 62.5339pt.
-<Immagini/plot-energy-decay-cfl-0.50.png, id=1496, 619.3539pt x 393.8715pt>
+<Immagini/plot-energy-decay-cfl-0.50.png, id=1546, 619.3539pt x 393.8715pt>
 File: Immagini/plot-energy-decay-cfl-0.50.png Graphic file (type png)
 <use Immagini/plot-energy-decay-cfl-0.50.png>
 Package pdftex.def Info: Immagini/plot-energy-decay-cfl-0.50.png  used on input line 251.
@@ -1391,12 +1391,12 @@ Package pdftex.def Info: Immagini/plot-energy-decay-cfl-0.50.png  used on input 
 ] [55
 
 ]
-<Immagini/plot-dirichlet-piecewise-c1<c2.png, id=1668, 609.9588pt x 393.8715pt>
+<Immagini/plot-dirichlet-piecewise-c1<c2.png, id=1725, 609.9588pt x 393.8715pt>
 File: Immagini/plot-dirichlet-piecewise-c1<c2.png Graphic file (type png)
 <use Immagini/plot-dirichlet-piecewise-c1<c2.png>
 Package pdftex.def Info: Immagini/plot-dirichlet-piecewise-c1<c2.png  used on input line 359.
 (pdftex.def)             Requested size: 150.57372pt x 97.22957pt.
-<Immagini/plot-neumann-piecewise-c1<c2.png, id=1669, 609.9588pt x 393.8715pt>
+<Immagini/plot-neumann-piecewise-c1<c2.png, id=1726, 609.9588pt x 393.8715pt>
 File: Immagini/plot-neumann-piecewise-c1<c2.png Graphic file (type png)
 <use Immagini/plot-neumann-piecewise-c1<c2.png>
 Package pdftex.def Info: Immagini/plot-neumann-piecewise-c1<c2.png  used on input line 359.
@@ -1404,12 +1404,12 @@ Package pdftex.def Info: Immagini/plot-neumann-piecewise-c1<c2.png  used on inpu
  [56
 
  <./Immagini/plot-dirichlet-piecewise-c1<c2.png> <./Immagini/plot-neumann-piecewise-c1<c2.png>]
-<Immagini/plot-dirichlet-piecewise-c1>c2.png, id=1703, 609.9588pt x 393.8715pt>
+<Immagini/plot-dirichlet-piecewise-c1>c2.png, id=1761, 609.9588pt x 393.8715pt>
 File: Immagini/plot-dirichlet-piecewise-c1>c2.png Graphic file (type png)
 <use Immagini/plot-dirichlet-piecewise-c1>c2.png>
 Package pdftex.def Info: Immagini/plot-dirichlet-piecewise-c1>c2.png  used on input line 359.
 (pdftex.def)             Requested size: 150.57372pt x 97.22957pt.
-<Immagini/plot-neumann-piecewise-c1>c2.png, id=1704, 602.0091pt x 393.8715pt>
+<Immagini/plot-neumann-piecewise-c1>c2.png, id=1762, 602.0091pt x 393.8715pt>
 File: Immagini/plot-neumann-piecewise-c1>c2.png Graphic file (type png)
 <use Immagini/plot-neumann-piecewise-c1>c2.png>
 Package pdftex.def Info: Immagini/plot-neumann-piecewise-c1>c2.png  used on input line 359.
@@ -1417,12 +1417,12 @@ Package pdftex.def Info: Immagini/plot-neumann-piecewise-c1>c2.png  used on inpu
  [57
 
  <./Immagini/plot-dirichlet-piecewise-c1>c2.png> <./Immagini/plot-neumann-piecewise-c1>c2.png>]
-<Immagini/plot-difference-coefficients-c1<c2.png, id=1734, 715.473pt x 393.8715pt>
+<Immagini/plot-difference-coefficients-c1<c2.png, id=1792, 715.473pt x 393.8715pt>
 File: Immagini/plot-difference-coefficients-c1<c2.png Graphic file (type png)
 <use Immagini/plot-difference-coefficients-c1<c2.png>
 Package pdftex.def Info: Immagini/plot-difference-coefficients-c1<c2.png  used on input line 417.
 (pdftex.def)             Requested size: 150.57372pt x 82.88974pt.
-<Immagini/plot-difference-coefficients-c1>c2.png, id=1735, 715.473pt x 396.7623pt>
+<Immagini/plot-difference-coefficients-c1>c2.png, id=1793, 715.473pt x 396.7623pt>
 File: Immagini/plot-difference-coefficients-c1>c2.png Graphic file (type png)
 <use Immagini/plot-difference-coefficients-c1>c2.png>
 Package pdftex.def Info: Immagini/plot-difference-coefficients-c1>c2.png  used on input line 417.
@@ -1441,45 +1441,58 @@ Package pdftex.def Info: Immagini/plot-difference-coefficients-c1>c2.png  used o
  [59
 
 ]
-<Immagini/plot-energy-c1=1-c2=3.png, id=1792, 619.3539pt x 393.8715pt>
+<Immagini/plot-energy-c1=1-c2=3.png, id=1853, 619.3539pt x 393.8715pt>
 File: Immagini/plot-energy-c1=1-c2=3.png Graphic file (type png)
 <use Immagini/plot-energy-c1=1-c2=3.png>
-Package pdftex.def Info: Immagini/plot-energy-c1=1-c2=3.png  used on input line 489.
+Package pdftex.def Info: Immagini/plot-energy-c1=1-c2=3.png  used on input line 491.
 (pdftex.def)             Requested size: 150.57372pt x 95.75111pt.
-<Immagini/plot-energy-c1=3-c2=1.png, id=1793, 612.8496pt x 393.8715pt>
+<Immagini/plot-energy-c1=3-c2=1.png, id=1854, 612.8496pt x 393.8715pt>
 File: Immagini/plot-energy-c1=3-c2=1.png Graphic file (type png)
 <use Immagini/plot-energy-c1=3-c2=1.png>
-Package pdftex.def Info: Immagini/plot-energy-c1=3-c2=1.png  used on input line 489.
+Package pdftex.def Info: Immagini/plot-energy-c1=3-c2=1.png  used on input line 491.
 (pdftex.def)             Requested size: 150.57372pt x 96.7668pt.
  [60
 
  <./Immagini/plot-energy-c1=1-c2=3.png> <./Immagini/plot-energy-c1=3-c2=1.png>]
-<Immagini/plot-energy-c1=1-c2=6.png, id=1825, 619.3539pt x 393.8715pt>
+<Immagini/plot-energy-c1=1-c2=6.png, id=1886, 619.3539pt x 393.8715pt>
 File: Immagini/plot-energy-c1=1-c2=6.png Graphic file (type png)
 <use Immagini/plot-energy-c1=1-c2=6.png>
-Package pdftex.def Info: Immagini/plot-energy-c1=1-c2=6.png  used on input line 489.
+Package pdftex.def Info: Immagini/plot-energy-c1=1-c2=6.png  used on input line 491.
 (pdftex.def)             Requested size: 150.57372pt x 95.75111pt.
-<Immagini/plot-energy-c1=6-c2=1.png, id=1826, 603.4545pt x 393.8715pt>
+<Immagini/plot-energy-c1=6-c2=1.png, id=1887, 603.4545pt x 393.8715pt>
 File: Immagini/plot-energy-c1=6-c2=1.png Graphic file (type png)
 <use Immagini/plot-energy-c1=6-c2=1.png>
-Package pdftex.def Info: Immagini/plot-energy-c1=6-c2=1.png  used on input line 489.
+Package pdftex.def Info: Immagini/plot-energy-c1=6-c2=1.png  used on input line 491.
 (pdftex.def)             Requested size: 150.57372pt x 98.2753pt.
  [61
 
  <./Immagini/plot-energy-c1=1-c2=6.png> <./Immagini/plot-energy-c1=6-c2=1.png>]
-<Immagini/plot-energy-c1=1-c2=9.png, id=1857, 626.5809pt x 393.8715pt>
+<Immagini/plot-energy-c1=1-c2=9.png, id=1919, 626.5809pt x 393.8715pt>
 File: Immagini/plot-energy-c1=1-c2=9.png Graphic file (type png)
 <use Immagini/plot-energy-c1=1-c2=9.png>
-Package pdftex.def Info: Immagini/plot-energy-c1=1-c2=9.png  used on input line 489.
+Package pdftex.def Info: Immagini/plot-energy-c1=1-c2=9.png  used on input line 491.
 (pdftex.def)             Requested size: 150.57372pt x 94.65128pt.
-<Immagini/plot-energy-c1=9-c2=1.png, id=1858, 609.9588pt x 393.8715pt>
+<Immagini/plot-energy-c1=9-c2=1.png, id=1920, 609.9588pt x 393.8715pt>
 File: Immagini/plot-energy-c1=9-c2=1.png Graphic file (type png)
 <use Immagini/plot-energy-c1=9-c2=1.png>
-Package pdftex.def Info: Immagini/plot-energy-c1=9-c2=1.png  used on input line 489.
+Package pdftex.def Info: Immagini/plot-energy-c1=9-c2=1.png  used on input line 491.
 (pdftex.def)             Requested size: 150.57372pt x 97.22957pt.
  [62
 
- <./Immagini/plot-energy-c1=1-c2=9.png> <./Immagini/plot-energy-c1=9-c2=1.png>] [63
+ <./Immagini/plot-energy-c1=1-c2=9.png> <./Immagini/plot-energy-c1=9-c2=1.png>] (./Figure/energy-variation.tex) [63
+
+])
+\openout2 = `Sezioni/schrodinger-equation.aux'.
+
+ (./Sezioni/schrodinger-equation.tex
+Overfull \hbox (59.74377pt too wide) detected at line 25
+[] \OML/cmm/m/it/10 V \OT1/cmr/m/n/10 : \OML/cmm/m/it/10 V[] \OT1/cmr/m/n/10 = [][] \OML/cmm/m/it/10 V\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ^^^[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ^^^[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 dx
+ []
+
+[64
+
+
+
 
 ])
 \tf@nav=\write5
@@ -1491,20 +1504,20 @@ Package pdftex.def Info: Immagini/plot-energy-c1=9-c2=1.png  used on input line 
 \tf@snm=\write7
 \openout7 = `01beamer.snm'.
 
- (./01beamer.aux (./Sezioni/finite-element-method.aux) (./Sezioni/classical-wave-equation.aux)) ) 
+ (./01beamer.aux (./Sezioni/finite-element-method.aux) (./Sezioni/classical-wave-equation.aux) (./Sezioni/schrodinger-equation.aux)) ) 
 Here is how much of TeX's memory you used:
- 41302 strings out of 476025
- 899338 string characters out of 5790017
- 1872388 words of memory out of 5000000
- 60754 multiletter control sequences out of 15000+600000
- 541803 words of font info for 105 fonts, out of 8000000 for 9000
+ 41364 strings out of 476025
+ 901353 string characters out of 5790017
+ 1873388 words of memory out of 5000000
+ 60800 multiletter control sequences out of 15000+600000
+ 542727 words of font info for 108 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,19n,122p,539b,1068s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmbsy7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex9.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib5.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib9.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx0700.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx0800.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx0900.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm0500.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfti0800.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfti0900.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sftt0800.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sftt0900.pfb>
-Output written on 01beamer.pdf (63 pages, 4655801 bytes).
+ 128i,19n,122p,596b,1068s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmbsy7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex9.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib5.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib9.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx0700.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx0800.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx0900.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm0500.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfti0800.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfti0900.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sftt0800.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sftt0900.pfb>
+Output written on 01beamer.pdf (64 pages, 4682070 bytes).
 PDF statistics:
- 2152 PDF objects out of 2487 (max. 8388607)
- 1866 compressed objects within 19 object streams
- 129 named destinations out of 1000 (max. 500000)
- 435 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2258 PDF objects out of 2487 (max. 8388607)
+ 1965 compressed objects within 20 object streams
+ 132 named destinations out of 1000 (max. 500000)
+ 443 words of extra memory for PDF output out of 10000 (max. 10000000)
 
