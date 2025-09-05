@@ -6,20 +6,38 @@
     \begin{equation*}
         \fcolorbox{BrickRed}{white}{\text{$\displaystyle i\hbar\frac{\partial\psi}{\partial t}=-\frac{\hbar^2}{2m}\frac{\partial^2\psi}{\partial x^2}+V(x)\psi(x,t)$}}
     \end{equation*}
+\end{frame}
 
+\begin{frame}{New features}
     Three main differences from what we saw before:
+
+    \vfill
 
     \begin{enumerate}
         \item It appears a \underline{linear term}.
         
-        \begin{equation*}
-            \text{We must introduce a \textbf{weighted mass matrix}:} \ V:V_{i,j}=\int_\Omega V(x)\phi_j(x)\phi_i(x)dx
-        \end{equation*}
-        
-        \item The PDE is of first order in time.
+        We must introduce a \textbf{weighted mass matrix}:
         
         \begin{equation*}
-            \text{Crank-Nicholson method:}
+            V:V_{i,j}=\int_\Omega V(x)\phi_j(x)\phi_i(x)dx
         \end{equation*}
+
+        \vspace{0.25cm}
+        
+        \item The PDE is of \underline{first order} in time.
+        
+        The best method to exploit is the \textbf{Crank-Nicholson} one:
+        
+        \begin{equation*}
+            \left[M+\frac{i\Delta t}{2\hbar}\left(\frac{\hbar^2}{2m}A+V\right)\right]\psi^{(n+1)}=\left[M-\frac{i\Delta t}{2\hbar}\left(\frac{\hbar^2}{2m}A+V\right)\right]\psi^{(n)}
+        \end{equation*}
+
+        \vspace{0.25cm}
+
+        \item The presence of the imaginary unit introduces \underline{complex-valued wavefunctions}.
     \end{enumerate}
+\end{frame}
+
+\begin{frame}{How to handle imaginary part}
+    
 \end{frame}
