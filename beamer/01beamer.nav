@@ -61,14 +61,30 @@
 \headcommand {\beamer@sectionpages {37}{63}}
 \headcommand {\beamer@subsectionpages {37}{63}}
 \headcommand {\sectionentry {3}{Time-Dependent Schrödinger Equation}{64}{Time-Dependent Schrödinger Equation}{0}}
-\headcommand {\slideentry {3}{0}{1}{64/64}{}{0}}
-\headcommand {\beamer@framepages {64}{64}}
-\headcommand {\slideentry {3}{0}{2}{65/65}{}{0}}
-\headcommand {\beamer@framepages {65}{65}}
-\headcommand {\slideentry {3}{0}{3}{66/66}{}{0}}
-\headcommand {\beamer@framepages {66}{66}}
-\headcommand {\beamer@partpages {1}{66}}
-\headcommand {\beamer@subsectionpages {64}{66}}
-\headcommand {\beamer@sectionpages {64}{66}}
-\headcommand {\beamer@documentpages {66}}
-\headcommand {\gdef \inserttotalframenumber {30}}
+\headcommand {\slideentry {3}{0}{1}{64/65}{}{0}}
+\headcommand {\beamer@framepages {64}{65}}
+\headcommand {\slideentry {3}{0}{2}{66/69}{}{0}}
+\headcommand {\beamer@framepages {66}{69}}
+\headcommand {\slideentry {3}{0}{3}{70/72}{}{0}}
+\headcommand {\beamer@framepages {70}{72}}
+\headcommand {\slideentry {3}{0}{4}{73/76}{}{0}}
+\headcommand {\beamer@framepages {73}{76}}
+\headcommand {\slideentry {3}{0}{5}{77/77}{}{0}}
+\headcommand {\beamer@framepages {77}{77}}
+\headcommand {\slideentry {3}{0}{6}{78/79}{}{0}}
+\headcommand {\beamer@framepages {78}{79}}
+\headcommand {\slideentry {3}{0}{7}{80/80}{}{0}}
+\headcommand {\beamer@framepages {80}{80}}
+\headcommand {\slideentry {3}{0}{8}{81/82}{}{0}}
+\headcommand {\beamer@framepages {81}{82}}
+\headcommand {\slideentry {3}{0}{9}{83/83}{}{0}}
+\headcommand {\beamer@framepages {83}{83}}
+\headcommand {\slideentry {3}{0}{10}{84/84}{}{0}}
+\headcommand {\beamer@framepages {84}{84}}
+\headcommand {\slideentry {3}{0}{11}{85/85}{}{0}}
+\headcommand {\beamer@framepages {85}{85}}
+\headcommand {\beamer@partpages {1}{85}}
+\headcommand {\beamer@subsectionpages {64}{85}}
+\headcommand {\beamer@sectionpages {64}{85}}
+\headcommand {\beamer@documentpages {85}}
+\headcommand {\gdef \inserttotalframenumber {38}}
