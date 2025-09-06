@@ -228,10 +228,223 @@
     \end{figure}}
 \end{frame}
 
-\begin{frame}{Periodic potential}
-    The introduction of a \textbf{periodic potential} lead to a \textcolor{BrickRed}{\textbf{Kronig-Penney-like model}}, which is used to describe electrons in a crystal lattice.
+\begin{frame}{Kronig-Penney model}
+    The introduction of a \textbf{periodic potential} leads to what is called a \textcolor{BrickRed}{\textbf{Kronig-Penney-like model}}, which is used to describe electrons in a \underline{crystal lattice}.
+
+    \pause
+
+    \begin{center}
+      \begin{framed}
+        \textcolor{BrickRed}{\textbf{Bloch's theorem}} states that solutions to the Schrödinger equation in a \underline{periodic potential} can be expressed as \textit{plane waves} modulated by \textit{periodic functions} $u(x)$ with the same periodicity as the crystal:
+
+        \begin{equation*}
+            \psi(x)=e^{ikx}u(x)
+        \end{equation*}
+      \end{framed}
+   \end{center}
+\end{frame}
+
+\begin{frame}{Bloch waves}
+    A periodic potential $V(x)=V_0\cos\left(\frac{2\pi}{a}x\right)$ couples plane waves which differ of multiples of $\frac{2\pi}{a}$, and the resulting superpositions form the \textcolor{BrickRed}{\textbf{Bloch waves}}.
+
+    \vspace{-0.15cm}
+
+    \begin{equation*}
+        \text{Projection onto periodic plane waves}
+    \end{equation*}
+
+    \vspace{-0.3cm}
+
+    \begin{equation*}
+        \Big\downarrow
+    \end{equation*}
+
+    \vspace{-0.25cm}
+
+    \begin{equation*}
+        \text{Formation of \textbf{lattice harmonics}}
+    \end{equation*}
+
+    \vfill
+
+    \begin{minipage}{0.32\textwidth}
+        \begin{center}
+            $a=1.0$
+        \end{center}
+        \vspace{-0.25cm}
+        \begin{figure}
+            \centering
+            \includegraphics[width=\textwidth]{Immagini/plot-periodic-potential-a-1.png}
+        \end{figure}
+    \end{minipage}
+    \hfill
+    \begin{minipage}{0.32\textwidth}
+        \begin{center}
+            $a=1.5$
+        \end{center}
+        \vspace{-0.25cm}
+        \begin{figure}
+            \centering
+            \includegraphics[width=\textwidth]{Immagini/plot-periodic-potential-a-1,5.png}
+        \end{figure}
+    \end{minipage}
+    \hfill
+    \begin{minipage}{0.32\textwidth}
+        \begin{center}
+            $a=2.0$
+        \end{center}
+        \vspace{-0.25cm}
+        \begin{figure}
+            \centering
+            \includegraphics[width=\textwidth]{Immagini/plot-periodic-potential-a-2.png}
+        \end{figure}
+    \end{minipage}
+\end{frame}
+
+\begin{frame}{Effective mass}
+    \small
+
+    With the periodic potential, the allowed energies are \underline{no longer continuous}, but split into separate \textbf{bands}, each associated with different values of the \textit{crystal momentum} $k$.
+
+    \vfill
+
+    \pause
+
+    \footnotesize
+
+    Taylor expansion around $k_0$:
+
+    \begin{equation*}
+        E(k)=E\left(k_0\right)+\frac{dE}{dk}\bigg|_{k_0}\left(k-k_0\right)+\frac{1}{2}\frac{d^2E}{dk^2}\bigg|_{k_0}\left(k-k_0\right)^2+\dots
+    \end{equation*}
+
+    \pause
+
+    In the lowest bound, $k_0=0$ is the \textit{minimum}:
+
+    \begin{equation*}
+        E(k)\simeq E_0+\frac{1}{2}\frac{d^2E}{dk^2}\bigg|_{k=0}k^2
+    \end{equation*}
+
+    \pause
+
+    Comparing with the energy of a free particle, an \textcolor{BrickRed}{\textbf{effective mass}} can be found:
+
+    \begin{equation*}
+        E(k)=E_0+\frac{\hbar^2k^2}{2m^*} \ \Longrightarrow \ \fcolorbox{BrickRed}{white}{\text{$\displaystyle m^*=\hbar^2\left(\frac{d^2E}{dk^2}\bigg|_{k=0}\right)^{-1}$}}
+    \end{equation*}
+
+    \normalsize
+\end{frame}
+
+\begin{frame}{Sub-ballistic spreading}
+    \small
+
+    Around the \textit{minimum of a band}, a quantum system in a periodic lattice behaves like a free particle with an effective mass $m^*$.
+
+    \vfill
+
+    Since $\sigma\propto\frac{1}{m}$, a slower spreading is expected for a periodic lattice where $m^*>m$, due to the \textbf{parabolic approximation} of the band energy.
+
+    \vfill
+
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=\textwidth]{Immagini/plot-effective-mass.png}
+    \end{figure}
+
+    \normalsize
+\end{frame}
+
+\begin{frame}{Addition of a linear term}
+    The mean value, on the contrary, \underline{does not change}.
+
+    \vfill
+
+    \pause
+
+    In order to induce a \textit{net drift}, we must add a \textbf{linear potential} $V(x)=Fx$.
+
+    \vfill
+
+    \vspace{-0.1cm}
+
+    \visible<2>{\begin{figure}[H]
+        \centering
+        \includegraphics[width=0.87\textwidth]{Immagini/plot-linear-potential.png}
+    \end{figure}}
+
+    \vspace{-0.5cm}
+
+    \footnotesize
+
+    \begin{center}
+        The plot shows how \underline{dispersion} cases \textbf{interference effects} to gradually \textit{fade}.
+    \end{center}
+
+    \normalsize
+\end{frame}
+
+\begin{frame}{Average shift}
+    \vfill
+
+    \begin{minipage}[c]{0.45\textwidth}
+        \begin{figure}
+            \centering
+            \includegraphics[width=\textwidth]{Immagini/plot-moving-average-1.png}
+            \caption*{$V_0=1.00$, $F=1.00$}
+        \end{figure}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[c]{0.45\textwidth}
+        \begin{figure}
+            \centering
+            \includegraphics[width=\textwidth]{Immagini/plot-moving-average-1,25.png}
+            \caption*{$V_0=1.00$, $F=1.25$}
+        \end{figure}
+    \end{minipage}
+
+    \vfill
+
+    \begin{minipage}[c]{0.45\textwidth}
+        \begin{figure}
+            \centering
+            \includegraphics[width=\textwidth]{Immagini/plot-moving-average-1,5.png}
+            \caption*{$V_0=1.00$, $F=1.50$}
+        \end{figure}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[c]{0.45\textwidth}
+        \begin{figure}
+            \centering
+            \includegraphics[width=\textwidth]{Immagini/plot-moving-average-2.png}
+            \caption*{$V_0=1.00$, $F=2.00$}
+        \end{figure}
+    \end{minipage}
 \end{frame}
 
 \begin{frame}{Conclusions}
-    
+    Some final considerations:
+
+    \vfill
+
+    \pause
+
+    \begin{itemize}
+        \item FEM provides a suitable approach for \textbf{second-order PDEs}
+        \pause
+        \item Even though it has been used for very simple domains, in principle it can be applied to very \textbf{complex geometries}
+        \pause
+        \item To handle time evolution, FEM must be coupled with \textbf{finite difference schemes} or other temporal integration methods
+        \pause
+        \item The choice of spatial mesh and time step must satisfy some \textbf{stability} and \textbf{accuracy criteria} (like CFL condition or norm conservation)
+        \pause
+        \item FEM allows easy incorporation of \textbf{boundary conditions}
+    \end{itemize}
+
+    \vfill
+
+    \pause
+
+    In summary, our examples show that FEM is a very \textbf{robust} and \textbf{versatile} tool for \underline{spatial discretization}, but time evolution requires \textit{appropriate temporal schemes}.
 \end{frame}
