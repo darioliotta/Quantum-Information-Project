@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.11)  8 SEP 2025 15:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.11)  16 SEP 2025 01:41
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1085,47 +1085,47 @@ Overfull \hbox (1.8411pt too wide) in paragraph at lines 27--28
 ] [21
 
 ]
-<Immagini/mesh-example.jpeg, id=713, 1003.75pt x 464.73625pt>
+<Immagini/mesh-example.jpeg, id=776, 1003.75pt x 464.73625pt>
 File: Immagini/mesh-example.jpeg Graphic file (type jpg)
 <use Immagini/mesh-example.jpeg>
-Package pdftex.def Info: Immagini/mesh-example.jpeg  used on input line 206.
+Package pdftex.def Info: Immagini/mesh-example.jpeg  used on input line 210.
 (pdftex.def)             Requested size: 208.95485pt x 96.74654pt.
  [22
 
  <./Immagini/mesh-example.jpeg>]
 File: Immagini/mesh-example.jpeg Graphic file (type jpg)
 <use Immagini/mesh-example.jpeg>
-Package pdftex.def Info: Immagini/mesh-example.jpeg  used on input line 206.
+Package pdftex.def Info: Immagini/mesh-example.jpeg  used on input line 210.
 (pdftex.def)             Requested size: 208.95485pt x 96.74654pt.
  [23
 
 ] (./Figure/elements.tex
-<Immagini/element-1D.png, id=771, 612.2875pt x 164.11313pt>
+<Immagini/element-1D.png, id=842, 612.2875pt x 164.11313pt>
 File: Immagini/element-1D.png Graphic file (type png)
 <use Immagini/element-1D.png>
 Package pdftex.def Info: Immagini/element-1D.png  used on input line 15.
 (pdftex.def)             Requested size: 66.9899pt x 17.95483pt.
-<Immagini/elements-2D.png, id=773, 947.54pt x 427.5975pt>
+<Immagini/elements-2D.png, id=844, 947.54pt x 427.5975pt>
 File: Immagini/elements-2D.png Graphic file (type png)
 <use Immagini/elements-2D.png>
 Package pdftex.def Info: Immagini/elements-2D.png  used on input line 16.
 (pdftex.def)             Requested size: 61.45703pt x 27.72955pt.
-<Immagini/elements-3D.png, id=774, 1178.90437pt x 482.80376pt>
+<Immagini/elements-3D.png, id=845, 1178.90437pt x 482.80376pt>
 File: Immagini/elements-3D.png Graphic file (type png)
 <use Immagini/elements-3D.png>
 Package pdftex.def Info: Immagini/elements-3D.png  used on input line 17.
 (pdftex.def)             Requested size: 67.60414pt x 27.68512pt.
-<Immagini/frame-elements.png, id=775, 265.49188pt x 644.4075pt>
+<Immagini/frame-elements.png, id=846, 265.49188pt x 644.4075pt>
 File: Immagini/frame-elements.png Graphic file (type png)
 <use Immagini/frame-elements.png>
 Package pdftex.def Info: Immagini/frame-elements.png  used on input line 25.
 (pdftex.def)             Requested size: 43.02039pt x 104.41507pt.
-<Immagini/triangular elements.png, id=776, 182.18062pt x 634.37pt>
+<Immagini/triangular elements.png, id=847, 182.18062pt x 634.37pt>
 File: Immagini/triangular elements.png Graphic file (type png)
 <use Immagini/triangular elements.png>
 Package pdftex.def Info: Immagini/triangular elements.png  used on input line 25.
 (pdftex.def)             Requested size: 30.73085pt x 106.99933pt.
-<Immagini/brick-elements.png, id=777, 340.77313pt x 628.3475pt>
+<Immagini/brick-elements.png, id=848, 340.77313pt x 628.3475pt>
 File: Immagini/brick-elements.png Graphic file (type png)
 <use Immagini/brick-elements.png>
 Package pdftex.def Info: Immagini/brick-elements.png  used on input line 25.
@@ -1187,38 +1187,38 @@ Package pdftex.def Info: Immagini/brick-elements.png  used on input line 25.
 ) [26
 
 ]
-<Immagini/mesh-application-1.jpeg, id=870, 1003.75pt x 608.2725pt>
+<Immagini/mesh-application-1.jpeg, id=950, 1003.75pt x 608.2725pt>
 File: Immagini/mesh-application-1.jpeg Graphic file (type jpg)
 <use Immagini/mesh-application-1.jpeg>
-Package pdftex.def Info: Immagini/mesh-application-1.jpeg  used on input line 244.
+Package pdftex.def Info: Immagini/mesh-application-1.jpeg  used on input line 248.
 (pdftex.def)             Requested size: 153.64493pt x 93.10251pt.
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 244.
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 248.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2022/07/10 v2.5l Standard LaTeX font definitions
 )
-Underfull \hbox (badness 10000) in paragraph at lines 244--244
+Underfull \hbox (badness 10000) in paragraph at lines 248--248
 []\T1/cmtt/m/n/5 Image from COMSOL Multiplysics Cyclopedia, ``Finite
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 244--244
+Underfull \hbox (badness 10000) in paragraph at lines 248--248
 []\T1/cmtt/m/n/5 Image from COMSOL Multiplysics Blog, ``Meshing
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 244--244
+Underfull \hbox (badness 10000) in paragraph at lines 248--248
 \T1/cmtt/m/n/5 Your Geometry: When to Use the Various Element
  []
 
-<Immagini/mesh-application-2.png, id=871, 1432.60219pt x 756.57657pt>
+<Immagini/mesh-application-2.png, id=951, 1432.60219pt x 756.57657pt>
 File: Immagini/mesh-application-2.png Graphic file (type png)
 <use Immagini/mesh-application-2.png>
-Package pdftex.def Info: Immagini/mesh-application-2.png  used on input line 244.
+Package pdftex.def Info: Immagini/mesh-application-2.png  used on input line 248.
 (pdftex.def)             Requested size: 153.64493pt x 81.13414pt.
 [27
 
  <./Immagini/mesh-application-1.jpeg> <./Immagini/mesh-application-2.png>] (./Figure/choise-of-the-base.tex
-<Immagini/local-basis-functions.png, id=902, 586.8324pt x 442.2924pt>
+<Immagini/local-basis-functions.png, id=985, 586.8324pt x 442.2924pt>
 File: Immagini/local-basis-functions.png Graphic file (type png)
 <use Immagini/local-basis-functions.png>
 Package pdftex.def Info: Immagini/local-basis-functions.png  used on input line 29.
@@ -1247,24 +1247,24 @@ Package pdftex.def Info: Immagini/local-basis-functions.png  used on input line 
 ) [31
 
 ]
-<Immagini/fenics-logo.png, id=1018, 948.1824pt x 331.2375pt>
+<Immagini/fenics-logo.png, id=1111, 948.1824pt x 331.2375pt>
 File: Immagini/fenics-logo.png Graphic file (type png)
 <use Immagini/fenics-logo.png>
-Package pdftex.def Info: Immagini/fenics-logo.png  used on input line 292.
+Package pdftex.def Info: Immagini/fenics-logo.png  used on input line 298.
 (pdftex.def)             Requested size: 175.15747pt x 61.187pt.
  [32
 
  <./Immagini/fenics-logo.png>]
 File: Immagini/fenics-logo.png Graphic file (type png)
 <use Immagini/fenics-logo.png>
-Package pdftex.def Info: Immagini/fenics-logo.png  used on input line 292.
+Package pdftex.def Info: Immagini/fenics-logo.png  used on input line 298.
 (pdftex.def)             Requested size: 175.15747pt x 61.187pt.
  [33
 
 ]
 File: Immagini/fenics-logo.png Graphic file (type png)
 <use Immagini/fenics-logo.png>
-Package pdftex.def Info: Immagini/fenics-logo.png  used on input line 292.
+Package pdftex.def Info: Immagini/fenics-logo.png  used on input line 298.
 (pdftex.def)             Requested size: 175.15747pt x 61.187pt.
  [34
 
@@ -1297,90 +1297,90 @@ Package pdftex.def Info: Immagini/fenics-logo.png  used on input line 292.
 ] [45
 
 ]
-<Immagini/plot-dirichlet-analytical.png, id=1422, 891.0891pt x 393.8715pt>
+<Immagini/plot-dirichlet-analytical.png, id=1560, 891.0891pt x 393.8715pt>
 File: Immagini/plot-dirichlet-analytical.png Graphic file (type png)
 <use Immagini/plot-dirichlet-analytical.png>
-Package pdftex.def Info: Immagini/plot-dirichlet-analytical.png  used on input line 132.
+Package pdftex.def Info: Immagini/plot-dirichlet-analytical.png  used on input line 136.
 (pdftex.def)             Requested size: 245.83282pt x 108.66057pt.
  [46
 
  <./Immagini/plot-dirichlet-analytical.png>]
-<Immagini/plot-neumann-analytical.png, id=1453, 891.0891pt x 393.8715pt>
+<Immagini/plot-neumann-analytical.png, id=1597, 891.0891pt x 393.8715pt>
 File: Immagini/plot-neumann-analytical.png Graphic file (type png)
 <use Immagini/plot-neumann-analytical.png>
-Package pdftex.def Info: Immagini/plot-neumann-analytical.png  used on input line 132.
+Package pdftex.def Info: Immagini/plot-neumann-analytical.png  used on input line 136.
 (pdftex.def)             Requested size: 245.83282pt x 108.66057pt.
  [47
 
  <./Immagini/plot-neumann-analytical.png>]
-<Immagini/plot-dirichlet-approximated.png, id=1482, 611.4042pt x 393.8715pt>
+<Immagini/plot-dirichlet-approximated.png, id=1629, 611.4042pt x 393.8715pt>
 File: Immagini/plot-dirichlet-approximated.png Graphic file (type png)
 <use Immagini/plot-dirichlet-approximated.png>
-Package pdftex.def Info: Immagini/plot-dirichlet-approximated.png  used on input line 184.
+Package pdftex.def Info: Immagini/plot-dirichlet-approximated.png  used on input line 188.
 (pdftex.def)             Requested size: 150.57372pt x 97.00119pt.
-<Immagini/plot-neumann-approximated.png, id=1483, 611.4042pt x 393.8715pt>
+<Immagini/plot-neumann-approximated.png, id=1630, 611.4042pt x 393.8715pt>
 File: Immagini/plot-neumann-approximated.png Graphic file (type png)
 <use Immagini/plot-neumann-approximated.png>
-Package pdftex.def Info: Immagini/plot-neumann-approximated.png  used on input line 184.
+Package pdftex.def Info: Immagini/plot-neumann-approximated.png  used on input line 188.
 (pdftex.def)             Requested size: 150.57372pt x 97.00119pt.
  [48
 
  <./Immagini/plot-dirichlet-approximated.png> <./Immagini/plot-neumann-approximated.png>]
 File: Immagini/plot-dirichlet-approximated.png Graphic file (type png)
 <use Immagini/plot-dirichlet-approximated.png>
-Package pdftex.def Info: Immagini/plot-dirichlet-approximated.png  used on input line 184.
+Package pdftex.def Info: Immagini/plot-dirichlet-approximated.png  used on input line 188.
 (pdftex.def)             Requested size: 150.57372pt x 97.00119pt.
 File: Immagini/plot-neumann-approximated.png Graphic file (type png)
 <use Immagini/plot-neumann-approximated.png>
-Package pdftex.def Info: Immagini/plot-neumann-approximated.png  used on input line 184.
+Package pdftex.def Info: Immagini/plot-neumann-approximated.png  used on input line 188.
 (pdftex.def)             Requested size: 150.57372pt x 97.00119pt.
  [49
 
 ]
-<Immagini/plot-energy-decay-cfl-0.05.png, id=1545, 619.3539pt x 393.8715pt>
+<Immagini/plot-energy-decay-cfl-0.05.png, id=1697, 619.3539pt x 393.8715pt>
 File: Immagini/plot-energy-decay-cfl-0.05.png Graphic file (type png)
 <use Immagini/plot-energy-decay-cfl-0.05.png>
-Package pdftex.def Info: Immagini/plot-energy-decay-cfl-0.05.png  used on input line 251.
+Package pdftex.def Info: Immagini/plot-energy-decay-cfl-0.05.png  used on input line 255.
 (pdftex.def)             Requested size: 98.335pt x 62.5339pt.
-<Immagini/plot-energy-decay-cfl-0.25.png, id=1546, 619.3539pt x 393.8715pt>
+<Immagini/plot-energy-decay-cfl-0.25.png, id=1698, 619.3539pt x 393.8715pt>
 File: Immagini/plot-energy-decay-cfl-0.25.png Graphic file (type png)
 <use Immagini/plot-energy-decay-cfl-0.25.png>
-Package pdftex.def Info: Immagini/plot-energy-decay-cfl-0.25.png  used on input line 251.
+Package pdftex.def Info: Immagini/plot-energy-decay-cfl-0.25.png  used on input line 255.
 (pdftex.def)             Requested size: 98.335pt x 62.5339pt.
-<Immagini/plot-energy-decay-cfl-0.50.png, id=1547, 619.3539pt x 393.8715pt>
+<Immagini/plot-energy-decay-cfl-0.50.png, id=1699, 619.3539pt x 393.8715pt>
 File: Immagini/plot-energy-decay-cfl-0.50.png Graphic file (type png)
 <use Immagini/plot-energy-decay-cfl-0.50.png>
-Package pdftex.def Info: Immagini/plot-energy-decay-cfl-0.50.png  used on input line 251.
+Package pdftex.def Info: Immagini/plot-energy-decay-cfl-0.50.png  used on input line 255.
 (pdftex.def)             Requested size: 98.335pt x 62.5339pt.
  [50
 
  <./Immagini/plot-energy-decay-cfl-0.05.png> <./Immagini/plot-energy-decay-cfl-0.25.png> <./Immagini/plot-energy-decay-cfl-0.50.png>]
 File: Immagini/plot-energy-decay-cfl-0.05.png Graphic file (type png)
 <use Immagini/plot-energy-decay-cfl-0.05.png>
-Package pdftex.def Info: Immagini/plot-energy-decay-cfl-0.05.png  used on input line 251.
+Package pdftex.def Info: Immagini/plot-energy-decay-cfl-0.05.png  used on input line 255.
 (pdftex.def)             Requested size: 98.335pt x 62.5339pt.
 File: Immagini/plot-energy-decay-cfl-0.25.png Graphic file (type png)
 <use Immagini/plot-energy-decay-cfl-0.25.png>
-Package pdftex.def Info: Immagini/plot-energy-decay-cfl-0.25.png  used on input line 251.
+Package pdftex.def Info: Immagini/plot-energy-decay-cfl-0.25.png  used on input line 255.
 (pdftex.def)             Requested size: 98.335pt x 62.5339pt.
 File: Immagini/plot-energy-decay-cfl-0.50.png Graphic file (type png)
 <use Immagini/plot-energy-decay-cfl-0.50.png>
-Package pdftex.def Info: Immagini/plot-energy-decay-cfl-0.50.png  used on input line 251.
+Package pdftex.def Info: Immagini/plot-energy-decay-cfl-0.50.png  used on input line 255.
 (pdftex.def)             Requested size: 98.335pt x 62.5339pt.
  [51
 
 ]
 File: Immagini/plot-energy-decay-cfl-0.05.png Graphic file (type png)
 <use Immagini/plot-energy-decay-cfl-0.05.png>
-Package pdftex.def Info: Immagini/plot-energy-decay-cfl-0.05.png  used on input line 251.
+Package pdftex.def Info: Immagini/plot-energy-decay-cfl-0.05.png  used on input line 255.
 (pdftex.def)             Requested size: 98.335pt x 62.5339pt.
 File: Immagini/plot-energy-decay-cfl-0.25.png Graphic file (type png)
 <use Immagini/plot-energy-decay-cfl-0.25.png>
-Package pdftex.def Info: Immagini/plot-energy-decay-cfl-0.25.png  used on input line 251.
+Package pdftex.def Info: Immagini/plot-energy-decay-cfl-0.25.png  used on input line 255.
 (pdftex.def)             Requested size: 98.335pt x 62.5339pt.
 File: Immagini/plot-energy-decay-cfl-0.50.png Graphic file (type png)
 <use Immagini/plot-energy-decay-cfl-0.50.png>
-Package pdftex.def Info: Immagini/plot-energy-decay-cfl-0.50.png  used on input line 251.
+Package pdftex.def Info: Immagini/plot-energy-decay-cfl-0.50.png  used on input line 255.
 (pdftex.def)             Requested size: 98.335pt x 62.5339pt.
  [52
 
@@ -1391,91 +1391,91 @@ Package pdftex.def Info: Immagini/plot-energy-decay-cfl-0.50.png  used on input 
 ] [55
 
 ]
-<Immagini/plot-dirichlet-piecewise-c1<c2.png, id=1726, 609.9588pt x 393.8715pt>
+<Immagini/plot-dirichlet-piecewise-c1<c2.png, id=1895, 609.9588pt x 393.8715pt>
 File: Immagini/plot-dirichlet-piecewise-c1<c2.png Graphic file (type png)
 <use Immagini/plot-dirichlet-piecewise-c1<c2.png>
-Package pdftex.def Info: Immagini/plot-dirichlet-piecewise-c1<c2.png  used on input line 359.
+Package pdftex.def Info: Immagini/plot-dirichlet-piecewise-c1<c2.png  used on input line 365.
 (pdftex.def)             Requested size: 150.57372pt x 97.22957pt.
-<Immagini/plot-neumann-piecewise-c1<c2.png, id=1727, 609.9588pt x 393.8715pt>
+<Immagini/plot-neumann-piecewise-c1<c2.png, id=1896, 609.9588pt x 393.8715pt>
 File: Immagini/plot-neumann-piecewise-c1<c2.png Graphic file (type png)
 <use Immagini/plot-neumann-piecewise-c1<c2.png>
-Package pdftex.def Info: Immagini/plot-neumann-piecewise-c1<c2.png  used on input line 359.
+Package pdftex.def Info: Immagini/plot-neumann-piecewise-c1<c2.png  used on input line 365.
 (pdftex.def)             Requested size: 150.57372pt x 97.22957pt.
  [56
 
  <./Immagini/plot-dirichlet-piecewise-c1<c2.png> <./Immagini/plot-neumann-piecewise-c1<c2.png>]
-<Immagini/plot-dirichlet-piecewise-c1>c2.png, id=1762, 609.9588pt x 393.8715pt>
+<Immagini/plot-dirichlet-piecewise-c1>c2.png, id=1935, 609.9588pt x 393.8715pt>
 File: Immagini/plot-dirichlet-piecewise-c1>c2.png Graphic file (type png)
 <use Immagini/plot-dirichlet-piecewise-c1>c2.png>
-Package pdftex.def Info: Immagini/plot-dirichlet-piecewise-c1>c2.png  used on input line 359.
+Package pdftex.def Info: Immagini/plot-dirichlet-piecewise-c1>c2.png  used on input line 365.
 (pdftex.def)             Requested size: 150.57372pt x 97.22957pt.
-<Immagini/plot-neumann-piecewise-c1>c2.png, id=1763, 602.0091pt x 393.8715pt>
+<Immagini/plot-neumann-piecewise-c1>c2.png, id=1936, 602.0091pt x 393.8715pt>
 File: Immagini/plot-neumann-piecewise-c1>c2.png Graphic file (type png)
 <use Immagini/plot-neumann-piecewise-c1>c2.png>
-Package pdftex.def Info: Immagini/plot-neumann-piecewise-c1>c2.png  used on input line 359.
+Package pdftex.def Info: Immagini/plot-neumann-piecewise-c1>c2.png  used on input line 365.
 (pdftex.def)             Requested size: 150.57372pt x 98.5157pt.
  [57
 
  <./Immagini/plot-dirichlet-piecewise-c1>c2.png> <./Immagini/plot-neumann-piecewise-c1>c2.png>]
-<Immagini/plot-difference-coefficients-c1<c2.png, id=1793, 715.473pt x 393.8715pt>
+<Immagini/plot-difference-coefficients-c1<c2.png, id=1969, 715.473pt x 393.8715pt>
 File: Immagini/plot-difference-coefficients-c1<c2.png Graphic file (type png)
 <use Immagini/plot-difference-coefficients-c1<c2.png>
-Package pdftex.def Info: Immagini/plot-difference-coefficients-c1<c2.png  used on input line 417.
+Package pdftex.def Info: Immagini/plot-difference-coefficients-c1<c2.png  used on input line 423.
 (pdftex.def)             Requested size: 150.57372pt x 82.88974pt.
-<Immagini/plot-difference-coefficients-c1>c2.png, id=1794, 715.473pt x 396.7623pt>
+<Immagini/plot-difference-coefficients-c1>c2.png, id=1970, 715.473pt x 396.7623pt>
 File: Immagini/plot-difference-coefficients-c1>c2.png Graphic file (type png)
 <use Immagini/plot-difference-coefficients-c1>c2.png>
-Package pdftex.def Info: Immagini/plot-difference-coefficients-c1>c2.png  used on input line 417.
+Package pdftex.def Info: Immagini/plot-difference-coefficients-c1>c2.png  used on input line 423.
 (pdftex.def)             Requested size: 150.57372pt x 83.49811pt.
  [58
 
  <./Immagini/plot-difference-coefficients-c1<c2.png> <./Immagini/plot-difference-coefficients-c1>c2.png>]
 File: Immagini/plot-difference-coefficients-c1<c2.png Graphic file (type png)
 <use Immagini/plot-difference-coefficients-c1<c2.png>
-Package pdftex.def Info: Immagini/plot-difference-coefficients-c1<c2.png  used on input line 417.
+Package pdftex.def Info: Immagini/plot-difference-coefficients-c1<c2.png  used on input line 423.
 (pdftex.def)             Requested size: 150.57372pt x 82.88974pt.
 File: Immagini/plot-difference-coefficients-c1>c2.png Graphic file (type png)
 <use Immagini/plot-difference-coefficients-c1>c2.png>
-Package pdftex.def Info: Immagini/plot-difference-coefficients-c1>c2.png  used on input line 417.
+Package pdftex.def Info: Immagini/plot-difference-coefficients-c1>c2.png  used on input line 423.
 (pdftex.def)             Requested size: 150.57372pt x 83.49811pt.
  [59
 
 ]
-<Immagini/plot-energy-c1=1-c2=3.png, id=1854, 619.3539pt x 393.8715pt>
+<Immagini/plot-energy-c1=1-c2=3.png, id=2035, 619.3539pt x 393.8715pt>
 File: Immagini/plot-energy-c1=1-c2=3.png Graphic file (type png)
 <use Immagini/plot-energy-c1=1-c2=3.png>
-Package pdftex.def Info: Immagini/plot-energy-c1=1-c2=3.png  used on input line 491.
+Package pdftex.def Info: Immagini/plot-energy-c1=1-c2=3.png  used on input line 497.
 (pdftex.def)             Requested size: 150.57372pt x 95.75111pt.
-<Immagini/plot-energy-c1=3-c2=1.png, id=1855, 612.8496pt x 393.8715pt>
+<Immagini/plot-energy-c1=3-c2=1.png, id=2036, 612.8496pt x 393.8715pt>
 File: Immagini/plot-energy-c1=3-c2=1.png Graphic file (type png)
 <use Immagini/plot-energy-c1=3-c2=1.png>
-Package pdftex.def Info: Immagini/plot-energy-c1=3-c2=1.png  used on input line 491.
+Package pdftex.def Info: Immagini/plot-energy-c1=3-c2=1.png  used on input line 497.
 (pdftex.def)             Requested size: 150.57372pt x 96.7668pt.
  [60
 
  <./Immagini/plot-energy-c1=1-c2=3.png> <./Immagini/plot-energy-c1=3-c2=1.png>]
-<Immagini/plot-energy-c1=1-c2=6.png, id=1887, 619.3539pt x 393.8715pt>
+<Immagini/plot-energy-c1=1-c2=6.png, id=2072, 619.3539pt x 393.8715pt>
 File: Immagini/plot-energy-c1=1-c2=6.png Graphic file (type png)
 <use Immagini/plot-energy-c1=1-c2=6.png>
-Package pdftex.def Info: Immagini/plot-energy-c1=1-c2=6.png  used on input line 491.
+Package pdftex.def Info: Immagini/plot-energy-c1=1-c2=6.png  used on input line 497.
 (pdftex.def)             Requested size: 150.57372pt x 95.75111pt.
-<Immagini/plot-energy-c1=6-c2=1.png, id=1888, 603.4545pt x 393.8715pt>
+<Immagini/plot-energy-c1=6-c2=1.png, id=2073, 603.4545pt x 393.8715pt>
 File: Immagini/plot-energy-c1=6-c2=1.png Graphic file (type png)
 <use Immagini/plot-energy-c1=6-c2=1.png>
-Package pdftex.def Info: Immagini/plot-energy-c1=6-c2=1.png  used on input line 491.
+Package pdftex.def Info: Immagini/plot-energy-c1=6-c2=1.png  used on input line 497.
 (pdftex.def)             Requested size: 150.57372pt x 98.2753pt.
  [61
 
  <./Immagini/plot-energy-c1=1-c2=6.png> <./Immagini/plot-energy-c1=6-c2=1.png>]
-<Immagini/plot-energy-c1=1-c2=9.png, id=1920, 626.5809pt x 393.8715pt>
+<Immagini/plot-energy-c1=1-c2=9.png, id=2108, 626.5809pt x 393.8715pt>
 File: Immagini/plot-energy-c1=1-c2=9.png Graphic file (type png)
 <use Immagini/plot-energy-c1=1-c2=9.png>
-Package pdftex.def Info: Immagini/plot-energy-c1=1-c2=9.png  used on input line 491.
+Package pdftex.def Info: Immagini/plot-energy-c1=1-c2=9.png  used on input line 497.
 (pdftex.def)             Requested size: 150.57372pt x 94.65128pt.
-<Immagini/plot-energy-c1=9-c2=1.png, id=1921, 609.9588pt x 393.8715pt>
+<Immagini/plot-energy-c1=9-c2=1.png, id=2109, 609.9588pt x 393.8715pt>
 File: Immagini/plot-energy-c1=9-c2=1.png Graphic file (type png)
 <use Immagini/plot-energy-c1=9-c2=1.png>
-Package pdftex.def Info: Immagini/plot-energy-c1=9-c2=1.png  used on input line 491.
+Package pdftex.def Info: Immagini/plot-energy-c1=9-c2=1.png  used on input line 497.
 (pdftex.def)             Requested size: 150.57372pt x 97.22957pt.
  [62
 
@@ -1520,31 +1520,31 @@ Package pdftex.def Info: Immagini/plot-energy-c1=9-c2=1.png  used on input line 
 ] [79
 
 ]
-<Immagini/plot-schrodinger-free-particle.png, id=2441, 734.9859pt x 393.8715pt>
+<Immagini/plot-schrodinger-free-particle.png, id=2688, 734.9859pt x 393.8715pt>
 File: Immagini/plot-schrodinger-free-particle.png Graphic file (type png)
 <use Immagini/plot-schrodinger-free-particle.png>
-Package pdftex.def Info: Immagini/plot-schrodinger-free-particle.png  used on input line 173.
+Package pdftex.def Info: Immagini/plot-schrodinger-free-particle.png  used on input line 175.
 (pdftex.def)             Requested size: 307.28987pt x 164.67365pt.
  [80
 
  <./Immagini/plot-schrodinger-free-particle.png>]
-<Immagini/plot-sigma-diff-1.png, id=2471, 765.3393pt x 393.8715pt>
+<Immagini/plot-sigma-diff-1.png, id=2721, 765.3393pt x 393.8715pt>
 File: Immagini/plot-sigma-diff-1.png Graphic file (type png)
 <use Immagini/plot-sigma-diff-1.png>
-Package pdftex.def Info: Immagini/plot-sigma-diff-1.png  used on input line 229.
+Package pdftex.def Info: Immagini/plot-sigma-diff-1.png  used on input line 231.
 (pdftex.def)             Requested size: 95.25911pt x 49.02345pt.
-<Immagini/plot-sigma-diff-1,5.png, id=2472, 765.3393pt x 393.8715pt>
+<Immagini/plot-sigma-diff-1,5.png, id=2722, 765.3393pt x 393.8715pt>
 File: Immagini/plot-sigma-diff-1,5.png Graphic file (type png)
 <use Immagini/plot-sigma-diff-1,5.png>
-Package pdftex.def Info: Immagini/plot-sigma-diff-1,5.png  used on input line 229.
+Package pdftex.def Info: Immagini/plot-sigma-diff-1,5.png  used on input line 231.
 (pdftex.def)             Requested size: 95.25911pt x 49.02345pt.
-<Immagini/plot-sigma-diff-2.png, id=2473, 771.8436pt x 393.8715pt>
+<Immagini/plot-sigma-diff-2.png, id=2723, 771.8436pt x 393.8715pt>
 File: Immagini/plot-sigma-diff-2.png Graphic file (type png)
 <use Immagini/plot-sigma-diff-2.png>
-Package pdftex.def Info: Immagini/plot-sigma-diff-2.png  used on input line 229.
+Package pdftex.def Info: Immagini/plot-sigma-diff-2.png  used on input line 231.
 (pdftex.def)             Requested size: 95.25911pt x 48.60876pt.
 
-Overfull \hbox (3.24483pt too wide) in paragraph at lines 229--229
+Overfull \hbox (3.24483pt too wide) in paragraph at lines 231--231
  [] 
  []
 
@@ -1553,18 +1553,18 @@ Overfull \hbox (3.24483pt too wide) in paragraph at lines 229--229
  <./Immagini/plot-sigma-diff-1.png> <./Immagini/plot-sigma-diff-1,5.png> <./Immagini/plot-sigma-diff-2.png>]
 File: Immagini/plot-sigma-diff-1.png Graphic file (type png)
 <use Immagini/plot-sigma-diff-1.png>
-Package pdftex.def Info: Immagini/plot-sigma-diff-1.png  used on input line 229.
+Package pdftex.def Info: Immagini/plot-sigma-diff-1.png  used on input line 231.
 (pdftex.def)             Requested size: 95.25911pt x 49.02345pt.
 File: Immagini/plot-sigma-diff-1,5.png Graphic file (type png)
 <use Immagini/plot-sigma-diff-1,5.png>
-Package pdftex.def Info: Immagini/plot-sigma-diff-1,5.png  used on input line 229.
+Package pdftex.def Info: Immagini/plot-sigma-diff-1,5.png  used on input line 231.
 (pdftex.def)             Requested size: 95.25911pt x 49.02345pt.
 File: Immagini/plot-sigma-diff-2.png Graphic file (type png)
 <use Immagini/plot-sigma-diff-2.png>
-Package pdftex.def Info: Immagini/plot-sigma-diff-2.png  used on input line 229.
+Package pdftex.def Info: Immagini/plot-sigma-diff-2.png  used on input line 231.
 (pdftex.def)             Requested size: 95.25911pt x 48.60876pt.
 
-Overfull \hbox (3.24483pt too wide) in paragraph at lines 229--229
+Overfull \hbox (3.24483pt too wide) in paragraph at lines 231--231
  [] 
  []
 
@@ -1575,20 +1575,20 @@ Overfull \hbox (3.24483pt too wide) in paragraph at lines 229--229
 ] [84
 
 ]
-<Immagini/plot-periodic-potential-a-1.png, id=2590, 510.9489pt x 393.8715pt>
+<Immagini/plot-periodic-potential-a-1.png, id=2852, 510.9489pt x 393.8715pt>
 File: Immagini/plot-periodic-potential-a-1.png Graphic file (type png)
 <use Immagini/plot-periodic-potential-a-1.png>
-Package pdftex.def Info: Immagini/plot-periodic-potential-a-1.png  used on input line 302.
+Package pdftex.def Info: Immagini/plot-periodic-potential-a-1.png  used on input line 306.
 (pdftex.def)             Requested size: 98.335pt x 75.79796pt.
-<Immagini/plot-periodic-potential-a-1,5.png, id=2591, 510.9489pt x 393.8715pt>
+<Immagini/plot-periodic-potential-a-1,5.png, id=2853, 510.9489pt x 393.8715pt>
 File: Immagini/plot-periodic-potential-a-1,5.png Graphic file (type png)
 <use Immagini/plot-periodic-potential-a-1,5.png>
-Package pdftex.def Info: Immagini/plot-periodic-potential-a-1,5.png  used on input line 302.
+Package pdftex.def Info: Immagini/plot-periodic-potential-a-1,5.png  used on input line 306.
 (pdftex.def)             Requested size: 98.335pt x 75.79796pt.
-<Immagini/plot-periodic-potential-a-2.png, id=2592, 510.9489pt x 393.8715pt>
+<Immagini/plot-periodic-potential-a-2.png, id=2854, 510.9489pt x 393.8715pt>
 File: Immagini/plot-periodic-potential-a-2.png Graphic file (type png)
 <use Immagini/plot-periodic-potential-a-2.png>
-Package pdftex.def Info: Immagini/plot-periodic-potential-a-2.png  used on input line 302.
+Package pdftex.def Info: Immagini/plot-periodic-potential-a-2.png  used on input line 306.
 (pdftex.def)             Requested size: 98.335pt x 75.79796pt.
  [85
 
@@ -1601,48 +1601,48 @@ Package pdftex.def Info: Immagini/plot-periodic-potential-a-2.png  used on input
 ] [89
 
 ]
-<Immagini/plot-effective-mass.png, id=2740, 938.0646pt x 393.8715pt>
+<Immagini/plot-effective-mass.png, id=3016, 938.0646pt x 393.8715pt>
 File: Immagini/plot-effective-mass.png Graphic file (type png)
 <use Immagini/plot-effective-mass.png>
-Package pdftex.def Info: Immagini/plot-effective-mass.png  used on input line 357.
+Package pdftex.def Info: Immagini/plot-effective-mass.png  used on input line 361.
 (pdftex.def)             Requested size: 307.28987pt x 129.0224pt.
  [90
 
  <./Immagini/plot-effective-mass.png>]
-<Immagini/plot-linear-potential.png, id=2770, 734.9859pt x 393.8715pt>
+<Immagini/plot-linear-potential.png, id=3048, 734.9859pt x 393.8715pt>
 File: Immagini/plot-linear-potential.png Graphic file (type png)
 <use Immagini/plot-linear-potential.png>
-Package pdftex.def Info: Immagini/plot-linear-potential.png  used on input line 386.
+Package pdftex.def Info: Immagini/plot-linear-potential.png  used on input line 392.
 (pdftex.def)             Requested size: 267.34068pt x 143.26607pt.
  [91
 
  <./Immagini/plot-linear-potential.png>]
 File: Immagini/plot-linear-potential.png Graphic file (type png)
 <use Immagini/plot-linear-potential.png>
-Package pdftex.def Info: Immagini/plot-linear-potential.png  used on input line 386.
+Package pdftex.def Info: Immagini/plot-linear-potential.png  used on input line 392.
 (pdftex.def)             Requested size: 267.34068pt x 143.26607pt.
  [92
 
 ]
-<Immagini/plot-moving-average-1.png, id=2830, 776.1798pt x 393.8715pt>
+<Immagini/plot-moving-average-1.png, id=3114, 776.1798pt x 393.8715pt>
 File: Immagini/plot-moving-average-1.png Graphic file (type png)
 <use Immagini/plot-moving-average-1.png>
-Package pdftex.def Info: Immagini/plot-moving-average-1.png  used on input line 424.
+Package pdftex.def Info: Immagini/plot-moving-average-1.png  used on input line 430.
 (pdftex.def)             Requested size: 138.2795pt x 70.1666pt.
-<Immagini/plot-moving-average-1,25.png, id=2831, 776.1798pt x 393.8715pt>
+<Immagini/plot-moving-average-1,25.png, id=3115, 776.1798pt x 393.8715pt>
 File: Immagini/plot-moving-average-1,25.png Graphic file (type png)
 <use Immagini/plot-moving-average-1,25.png>
-Package pdftex.def Info: Immagini/plot-moving-average-1,25.png  used on input line 424.
+Package pdftex.def Info: Immagini/plot-moving-average-1,25.png  used on input line 430.
 (pdftex.def)             Requested size: 138.2795pt x 70.1666pt.
-<Immagini/plot-moving-average-1,5.png, id=2832, 776.1798pt x 393.8715pt>
+<Immagini/plot-moving-average-1,5.png, id=3116, 776.1798pt x 393.8715pt>
 File: Immagini/plot-moving-average-1,5.png Graphic file (type png)
 <use Immagini/plot-moving-average-1,5.png>
-Package pdftex.def Info: Immagini/plot-moving-average-1,5.png  used on input line 424.
+Package pdftex.def Info: Immagini/plot-moving-average-1,5.png  used on input line 430.
 (pdftex.def)             Requested size: 138.2795pt x 70.1666pt.
-<Immagini/plot-moving-average-2.png, id=2833, 776.1798pt x 393.8715pt>
+<Immagini/plot-moving-average-2.png, id=3117, 776.1798pt x 393.8715pt>
 File: Immagini/plot-moving-average-2.png Graphic file (type png)
 <use Immagini/plot-moving-average-2.png>
-Package pdftex.def Info: Immagini/plot-moving-average-2.png  used on input line 424.
+Package pdftex.def Info: Immagini/plot-moving-average-2.png  used on input line 430.
 (pdftex.def)             Requested size: 138.2795pt x 70.1666pt.
  [93
 
@@ -1719,18 +1719,18 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 41582 strings out of 476025
- 906018 string characters out of 5790017
+ 41618 strings out of 476025
+ 906362 string characters out of 5790017
  1873388 words of memory out of 5000000
- 60927 multiletter control sequences out of 15000+600000
+ 60954 multiletter control sequences out of 15000+600000
  547072 words of font info for 120 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,19n,122p,596b,1068s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmbsy7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex9.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib5.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib9.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm5.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbi2074.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx0700.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx0800.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx0900.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm0500.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfti0800.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfti0900.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sftt0800.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sftt0900.pfb>
-Output written on 01beamer.pdf (101 pages, 5429266 bytes).
+Output written on 01beamer.pdf (101 pages, 5447080 bytes).
 PDF statistics:
- 3380 PDF objects out of 3580 (max. 8388607)
- 3001 compressed objects within 31 object streams
- 206 named destinations out of 1000 (max. 500000)
- 508 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 3717 PDF objects out of 4296 (max. 8388607)
+ 3335 compressed objects within 34 object streams
+ 215 named destinations out of 1000 (max. 500000)
+ 580 words of extra memory for PDF output out of 10000 (max. 10000000)
 
